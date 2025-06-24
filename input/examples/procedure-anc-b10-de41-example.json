@@ -2,7 +2,7 @@
   "resourceType": "Procedure",
   "id": "anc-b10-de41-example",
   "meta": {
-    "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b10-de41" ]
+    "profile": [ "http://smart.who.int/anc/StructureDefinition/anc-b10-de41" ]
   },
   "identifier": [ {
     "use": "official",
@@ -12,7 +12,7 @@
   "status": "completed",
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B10.DE41",
       "display": "Counselling conducted on use of magnesium and calcium to relieve leg cramps"
     }, {

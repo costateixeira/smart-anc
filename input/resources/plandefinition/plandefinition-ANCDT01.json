@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCDT01",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCDT01",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCDT01",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.01"
@@ -26,13 +26,13 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B5",
         "display": "Quick check"
       } ]
     }
   } ],
-  "library": [ "http://fhir.org/guides/who/anc-cds/Library/ANCDT01" ],
+  "library": [ "http://smart.who.int/anc/Library/ANCDT01" ],
   "action": [ {
     "title": "ANC.DT.01 Danger signs",
     "trigger": [ {

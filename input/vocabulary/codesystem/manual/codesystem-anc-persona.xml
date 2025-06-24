@@ -1,6 +1,6 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
     <id value="anc-persona"/>
-    <url value="http://fhir.org/guides/who/anc-cds/CodeSystem/anc-persona"/>
+    <url value="http://smart.who.int/anc/CodeSystem/anc-persona"/>
 		<name value="ANCPersona"/>
     <title value="ANC Personas"/>
     <status value="draft"/>
@@ -10,7 +10,7 @@ will vary depending on the setting, the generic personas are based on the WHO co
 Please note that these are developed based on synthesis across multiple contexts as a starting point, and further contextualization will be required
 according to the needs, motivations and challenges of the targeted personas in each setting."/>
     <caseSensitive value="true"/>
-    <valueSet value="http://fhir.org/guides/who/anc-cds/ValueSet/anc-persona"/>
+    <valueSet value="http://smart.who.int/anc/ValueSet/anc-persona"/>
     <content value="complete"/>
 		<concept>
 			<code value="Patient"/>

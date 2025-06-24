@@ -2,7 +2,7 @@
   "resourceType": "Observation",
   "id": "anc-end-38-example",
   "meta": {
-    "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-end-38" ]
+    "profile": [ "http://smart.who.int/anc/StructureDefinition/anc-end-38" ]
   },
   "identifier": [ {
     "use": "official",
@@ -14,7 +14,7 @@
     "coding": [ {
       "system": "http://example.org/fhir/CodeSystem/example-codes",
       "code": "example",
-      "display": "Valueset binding http://fhir.org/guides/who/anc-cds/ValueSet/anc-end-38 resolved but contained no codes."
+      "display": "Valueset binding http://smart.who.int/anc/ValueSet/anc-end-38 resolved but contained no codes."
     } ]
   },
   "subject": {

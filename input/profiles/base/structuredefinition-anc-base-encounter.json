@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-base-encounter",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-encounter",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-base-encounter",
   "name": "ANCBaseEncounter",
   "title": "ANC Base Encounter",
   "status": "draft",
@@ -26,7 +26,7 @@
             {
               "code" : "Reference",
               "targetProfile" : [
-                "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-patient"
+                "http://smart.who.int/anc/StructureDefinition/anc-base-patient"
               ]
             }
           ]
@@ -38,7 +38,7 @@
             {
               "code" : "Reference",
               "targetProfile" : [
-                "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-servicerequest"
+                "http://smart.who.int/anc/StructureDefinition/anc-servicerequest"
               ]
             }
           ]
@@ -54,8 +54,8 @@
             {
               "code" : "Reference",
               "targetProfile" : [
-                "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-practitioner",
-                "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-practitionerrole"
+                "http://smart.who.int/anc/StructureDefinition/anc-practitioner",
+                "http://smart.who.int/anc/StructureDefinition/anc-practitionerrole"
               ]
             }
           ]
@@ -67,8 +67,8 @@
             {
               "code" : "Reference",
               "targetProfile" : [
-                "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-condition",
-                "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-procedure"
+                "http://smart.who.int/anc/StructureDefinition/anc-condition",
+                "http://smart.who.int/anc/StructureDefinition/anc-procedure"
               ]
             }
           ]
@@ -84,7 +84,7 @@
             {
               "code" : "Reference",
               "targetProfile" : [
-                "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-location"
+                "http://smart.who.int/anc/StructureDefinition/anc-location"
               ]
             }
           ]
@@ -96,7 +96,7 @@
             {
               "code" : "Reference",
               "targetProfile" : [
-                "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-organization"
+                "http://smart.who.int/anc/StructureDefinition/anc-organization"
               ]
             }
           ]

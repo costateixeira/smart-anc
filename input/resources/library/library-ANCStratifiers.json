@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Library/ANCStratifiers",
+  "url": "http://smart.who.int/anc/Library/ANCStratifiers",
   "name": "ANCStratifiers",
   "title": "ANC Stratifiers",
   "status": "active",
@@ -26,27 +26,27 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRHelpers|4.0.1"
+    "resource": "http://smart.who.int/anc/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library PatientData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCDataElements"
   }, {
     "type": "depends-on",
     "display": "Library ContactData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCContactDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCContactDataElements"
   }, {
     "type": "depends-on",
     "display": "Library AC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCCommon"
+    "resource": "http://smart.who.int/anc/Library/ANCCommon"
   }, {
     "type": "depends-on",
     "display": "Library WC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/WHOCommon"
+    "resource": "http://smart.who.int/anc/Library/WHOCommon"
   }, {
     "type": "depends-on",
     "display": "Library Cx",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConcepts"
+    "resource": "http://smart.who.int/anc/Library/ANCConcepts"
   }, {
     "type": "depends-on",
     "display": "Code system ISO-8601-Derived Periods",
@@ -54,11 +54,11 @@
   }, {
     "type": "depends-on",
     "display": "Value set Qualifying Reason for closing ANC record Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/qualifying-reason-for-closing-anc-record-choices"
+    "resource": "http://smart.who.int/anc/ValueSet/qualifying-reason-for-closing-anc-record-choices"
   }, {
     "type": "depends-on",
     "display": "Value set Gestational age",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de17"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de17"
   } ],
   "parameter": [ {
     "name": "Measurement Period",
@@ -116,7 +116,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de17"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de17"
     } ]
   } ],
   "content": [ {

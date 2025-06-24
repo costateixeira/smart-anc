@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCDT07",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCDT07",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCDT07",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.07"
@@ -26,13 +26,13 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "During",
         "display": "woman’s history/profile or lab and imaging tests"
       } ]
     }
   } ],
-  "library": [ "http://fhir.org/guides/who/anc-cds/Library/ANCDT07" ],
+  "library": [ "http://smart.who.int/anc/Library/ANCDT07" ],
   "action": [ {
     "title": "ANC.DT.07 Ultrasound recommendation",
     "trigger": [ {

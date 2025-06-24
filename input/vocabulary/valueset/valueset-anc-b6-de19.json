@@ -11,7 +11,7 @@
     "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
     "valueString": "executable"
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de19",
+  "url": "http://smart.who.int/anc/ValueSet/anc-b6-de19",
   "name": "SourceofgestationalageChoices",
   "title": "Source of gestational age Choices",
   "status": "draft",
@@ -20,7 +20,7 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "concept": [ {
         "code": "ANC.B6.DE19",
         "display": "Last menstrual period (LMP)"
@@ -36,15 +36,15 @@
   "expansion": {
     "timestamp": "2021-11-30T07:11:22-07:00",
     "contains": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B6.DE19",
       "display": "Last menstrual period (LMP)"
     }, {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B6.DE20",
       "display": "Ultrasound"
     }, {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B6.DE21",
       "display": "Symphysis fundal height (SFH) or abdominal palpation"
     } ]

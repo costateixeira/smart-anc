@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCDT12",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCDT12",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCDT12",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.12"
@@ -26,13 +26,13 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B9.",
         "display": "Conduct laboratory tests and imaging"
       } ]
     }
   } ],
-  "library": [ "http://fhir.org/guides/who/anc-cds/Library/ANCDT12" ],
+  "library": [ "http://smart.who.int/anc/Library/ANCDT12" ],
   "action": [ {
     "title": "ANC.DT.12 Urine testing",
     "trigger": [ {

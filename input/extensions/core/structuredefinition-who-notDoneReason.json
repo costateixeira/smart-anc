@@ -34,7 +34,7 @@
             "code": "uri"
           }
         ],
-        "fixedUri": "http://fhir.org/guides/who/anc-cds/StructureDefinition/who-notDoneReason"
+        "fixedUri": "http://smart.who.int/anc/StructureDefinition/who-notDoneReason"
       },
       {
         "id": "Extension.value[x]",

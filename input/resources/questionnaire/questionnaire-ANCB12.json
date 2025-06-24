@@ -14,7 +14,7 @@
     "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
     "valueCode": "structured"
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Questionnaire/ANCB12",
+  "url": "http://smart.who.int/anc/Questionnaire/ANCB12",
   "name": "ANCB12",
   "title": "ANC.B12 Scheduling",
   "status": "active",
@@ -28,7 +28,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B12",
         "display": "Scheduling"
       } ]
@@ -41,7 +41,7 @@
         "valueExpression": {
           "language": "text/cql-identifier",
           "expression": "Next Contact Date",
-          "reference": "http://fhir.org/guides/who/anc-cds/Library/ANCBaseDataElements"
+          "reference": "http://smart.who.int/anc/Library/ANCBaseDataElements"
         }
       }
     ],

@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCDT06",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCDT06",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCDT06",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.06"
@@ -26,13 +26,13 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B8.",
         "display": "Conduct physical exam"
       } ]
     }
   } ],
-  "library": [ "http://fhir.org/guides/who/anc-cds/Library/ANCDT06" ],
+  "library": [ "http://smart.who.int/anc/Library/ANCDT06" ],
   "action": [ {
     "title": "ANC.DT.06 Physical symptoms and exam results requiring referral",
     "trigger": [ {

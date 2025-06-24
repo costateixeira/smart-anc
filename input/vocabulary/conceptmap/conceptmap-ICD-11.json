@@ -1,14 +1,14 @@
 {
   "resourceType": "ConceptMap",
   "id": "ICD-11",
-  "url": "http://fhir.org/guides/who/anc-cds/ConceptMap/ICD-11",
+  "url": "http://smart.who.int/anc/ConceptMap/ICD-11",
   "name": "ICD-11",
   "title": "ICD-11",
   "status": "draft",
   "experimental": false,
   "description": "Concept mapping from content extended codes to ICD-11",
   "group": [ {
-    "source": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+    "source": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
     "target": "http://id.who.int/icd11/mms",
     "element": [ {
       "code": "ANC.B4.DE1",

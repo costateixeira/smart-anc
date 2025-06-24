@@ -2,7 +2,7 @@
   "resourceType": "Procedure",
   "id": "anc-b10-de1-example",
   "meta": {
-    "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b10-de1" ]
+    "profile": [ "http://smart.who.int/anc/StructureDefinition/anc-b10-de1" ]
   },
   "identifier": [ {
     "use": "official",
@@ -12,7 +12,7 @@
   "status": "completed",
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B10.DE1",
       "display": "Counselling conducted on caffeine reduction"
     }, {

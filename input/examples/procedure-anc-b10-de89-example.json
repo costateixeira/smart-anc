@@ -2,7 +2,7 @@
   "resourceType": "Procedure",
   "id": "anc-b10-de89-example",
   "meta": {
-    "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b10-de89" ]
+    "profile": [ "http://smart.who.int/anc/StructureDefinition/anc-b10-de89" ]
   },
   "identifier": [ {
     "use": "official",
@@ -12,7 +12,7 @@
   "status": "completed",
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B10.DE89",
       "display": "Counselling conducted on diabetes mellitus (DM)"
     }, {

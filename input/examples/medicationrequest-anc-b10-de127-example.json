@@ -2,7 +2,7 @@
   "resourceType": "MedicationRequest",
   "id": "anc-b10-de127-example",
   "meta": {
-    "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b10-de127" ]
+    "profile": [ "http://smart.who.int/anc/StructureDefinition/anc-b10-de127" ]
   },
   "identifier": [ {
     "use": "official",
@@ -12,7 +12,7 @@
   "status": "active",
   "statusReason": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B10.DE128",
       "display": "Client was referred"
     }, {
@@ -35,7 +35,7 @@
   },
   "medicationCodeableConcept": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B10.DE127",
       "display": "Reason PrEP for HIV prevention was not provided"
     } ]

@@ -2,7 +2,7 @@
 <Practitioner xmlns="http://hl7.org/fhir">
   <id value="jane"/>
 	<meta>
-		<profile value="http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-practitioner"/>
+		<profile value="http://smart.who.int/anc/StructureDefinition/anc-practitioner"/>
     <profile value="http://fhir.org/guides/who/core/StructureDefinition/who-practitioner"/>
 	</meta>
 

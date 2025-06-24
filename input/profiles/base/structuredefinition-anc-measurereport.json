@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-measurereport",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-measurereport",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-measurereport",
   "name": "ANCMeasureReport",
   "title": "ANC MeasureReport",
   "status": "draft",
@@ -26,11 +26,11 @@
           {
             "code": "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-patient",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-practitioner",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-practitionerrole",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-relatedperson",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-group"
+              "http://smart.who.int/anc/StructureDefinition/anc-base-patient",
+              "http://smart.who.int/anc/StructureDefinition/anc-practitioner",
+              "http://smart.who.int/anc/StructureDefinition/anc-practitionerrole",
+              "http://smart.who.int/anc/StructureDefinition/anc-relatedperson",
+              "http://smart.who.int/anc/StructureDefinition/anc-group"
             ]
           }
         ]
@@ -42,9 +42,9 @@
           {
             "code": "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-practitioner",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-practitionerrole",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-organization"
+              "http://smart.who.int/anc/StructureDefinition/anc-practitioner",
+              "http://smart.who.int/anc/StructureDefinition/anc-practitionerrole",
+              "http://smart.who.int/anc/StructureDefinition/anc-organization"
             ]
           }
         ]

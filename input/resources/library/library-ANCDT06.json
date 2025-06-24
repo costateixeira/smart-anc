@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Library/ANCDT06",
+  "url": "http://smart.who.int/anc/Library/ANCDT06",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.06"
@@ -30,223 +30,223 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRHelpers|4.0.1"
+    "resource": "http://smart.who.int/anc/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library Config",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConfig"
+    "resource": "http://smart.who.int/anc/Library/ANCConfig"
   }, {
     "type": "depends-on",
     "display": "Library Cx",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConcepts"
+    "resource": "http://smart.who.int/anc/Library/ANCConcepts"
   }, {
     "type": "depends-on",
     "display": "Library PatientData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCDataElements"
   }, {
     "type": "depends-on",
     "display": "Library ContactData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCContactDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCContactDataElements"
   }, {
     "type": "depends-on",
     "display": "Library WC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/WHOCommon"
+    "resource": "http://smart.who.int/anc/Library/WHOCommon"
   }, {
     "type": "depends-on",
     "display": "Value set Body temperature",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de34"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de34"
   }, {
     "type": "depends-on",
     "display": "Value set Second body temperature",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de35"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de35"
   }, {
     "type": "depends-on",
     "display": "Value set Second pulse rate",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de37"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de37"
   }, {
     "type": "depends-on",
     "display": "Value set Respiratory exam result",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de39"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de39"
   }, {
     "type": "depends-on",
     "display": "Value set Respiratory exam result - Dyspnoea Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de42"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de42"
   }, {
     "type": "depends-on",
     "display": "Value set Respiratory exam result - Cough Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de43"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de43"
   }, {
     "type": "depends-on",
     "display": "Value set Respiratory exam result - Rapid breathing Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de44"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de44"
   }, {
     "type": "depends-on",
     "display": "Value set Respiratory exam result - Slow breathing Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de45"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de45"
   }, {
     "type": "depends-on",
     "display": "Value set Respiratory exam result - Wheezing Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de46"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de46"
   }, {
     "type": "depends-on",
     "display": "Value set Respiratory exam result - Rales Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de47"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de47"
   }, {
     "type": "depends-on",
     "display": "Value set Respiratory exam result - Other abnormal result (specify) Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de48"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de48"
   }, {
     "type": "depends-on",
     "display": "Value set Respiratory exam result - Oximetry",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de49"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de49"
   }, {
     "type": "depends-on",
     "display": "Value set Cardiac exam result",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de50"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de50"
   }, {
     "type": "depends-on",
     "display": "Value set Cardiac exam result - Heart murmur Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de53"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de53"
   }, {
     "type": "depends-on",
     "display": "Value set Cardiac exam result - Weak pulse Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de54"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de54"
   }, {
     "type": "depends-on",
     "display": "Value set Cardiac exam result - Tachycardia Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de55"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de55"
   }, {
     "type": "depends-on",
     "display": "Value set Cardiac exam result - Bradycardia Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de56"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de56"
   }, {
     "type": "depends-on",
     "display": "Value set Cardiac exam result - Arrhythmia Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de57"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de57"
   }, {
     "type": "depends-on",
     "display": "Value set Cardiac exam result - Peripheral cyanosis Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de58"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de58"
   }, {
     "type": "depends-on",
     "display": "Value set Cardiac exam result - Cold sweats Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de59"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de59"
   }, {
     "type": "depends-on",
     "display": "Value set Cardiac exam result - Other abnormal cardiac exam result (specify) Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de60"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de60"
   }, {
     "type": "depends-on",
     "display": "Value set Breast exam result",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de61"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de61"
   }, {
     "type": "depends-on",
     "display": "Value set Breast exam result - Nodule Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de64"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de64"
   }, {
     "type": "depends-on",
     "display": "Value set Breast exam result - Discharge Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de65"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de65"
   }, {
     "type": "depends-on",
     "display": "Value set Breast exam result - Flushing Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de66"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de66"
   }, {
     "type": "depends-on",
     "display": "Value set Breast exam result - Local pain Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de67"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de67"
   }, {
     "type": "depends-on",
     "display": "Value set Breast exam result - Bleeding Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de68"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de68"
   }, {
     "type": "depends-on",
     "display": "Value set Breast exam result - Increased temperature Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de69"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de69"
   }, {
     "type": "depends-on",
     "display": "Value set Breast exam result - Other breast exam result (specify) Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de70"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de70"
   }, {
     "type": "depends-on",
     "display": "Value set Abdominal exam result",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de71"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de71"
   }, {
     "type": "depends-on",
     "display": "Value set Abdominal exam result - Mass/tumour Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de74"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de74"
   }, {
     "type": "depends-on",
     "display": "Value set Abdominal exam result - Pain on superficial palpation Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de75"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de75"
   }, {
     "type": "depends-on",
     "display": "Value set Abdominal exam result - Pain on deep palpation Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de76"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de76"
   }, {
     "type": "depends-on",
     "display": "Value set Abdominal exam result - Painful decompression Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de77"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de77"
   }, {
     "type": "depends-on",
     "display": "Value set Abdominal exam result - Other abnormal abdominal exam result (specify) Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de78"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de78"
   }, {
     "type": "depends-on",
     "display": "Value set Pelvic exam result (visual)",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de79"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de79"
   }, {
     "type": "depends-on",
     "display": "Value set Pelvic exam result (visual) - Abnormal vaginal discharge Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de82"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de82"
   }, {
     "type": "depends-on",
     "display": "Value set Pelvic exam result (visual) - Evidence of amniotic fluid Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de83"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de83"
   }, {
     "type": "depends-on",
     "display": "Value set Pelvic exam result (visual) - Clusters of erythematous papules Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de84"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de84"
   }, {
     "type": "depends-on",
     "display": "Value set Pelvic exam result (visual) - Vesicles Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de85"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de85"
   }, {
     "type": "depends-on",
     "display": "Value set Pelvic exam result (visual) - Genital ulcer Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de86"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de86"
   }, {
     "type": "depends-on",
     "display": "Value set Pelvic exam result (visual) - Genital pain Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de87"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de87"
   }, {
     "type": "depends-on",
     "display": "Value set Pelvic exam result (visual) - Lymphadenopathy (pelvic - unilateral or bilateral) Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de88"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de88"
   }, {
     "type": "depends-on",
     "display": "Value set Pelvic exam result (visual) - Cervical friability Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de89"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de89"
   }, {
     "type": "depends-on",
     "display": "Value set Pelvic exam result (visual) - Mucopurulent cervicitis Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de90"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de90"
   }, {
     "type": "depends-on",
     "display": "Value set Pelvic exam result (visual) - Other abnormal pelvic exam (visual) result (specify) Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de91"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de91"
   }, {
     "type": "depends-on",
     "display": "Value set Gestational age",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de17"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de17"
   }, {
     "type": "depends-on",
     "display": "Value set Fetal heartbeat present",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de106"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de106"
   }, {
     "type": "depends-on",
     "display": "Value set Second fetal heart rate",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de108"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de108"
   } ],
   "parameter": [ {
     "name": "encounter",
@@ -330,7 +330,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de34"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b8-de34"
     } ]
   }, {
     "type": "Observation",
@@ -338,7 +338,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de35"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b8-de35"
     } ]
   }, {
     "type": "Observation",
@@ -346,7 +346,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de37"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b8-de37"
     } ]
   }, {
     "type": "Observation",
@@ -354,7 +354,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de39"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b8-de39"
     } ]
   }, {
     "type": "Observation",
@@ -362,7 +362,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de49"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b8-de49"
     } ]
   }, {
     "type": "Observation",
@@ -370,7 +370,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de50"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b8-de50"
     } ]
   }, {
     "type": "Observation",
@@ -378,7 +378,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de61"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b8-de61"
     } ]
   }, {
     "type": "Observation",
@@ -386,7 +386,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de71"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b8-de71"
     } ]
   }, {
     "type": "Observation",
@@ -394,7 +394,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de79"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b8-de79"
     } ]
   }, {
     "type": "Observation",
@@ -402,7 +402,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de17"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de17"
     } ]
   }, {
     "type": "Observation",
@@ -410,7 +410,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de106"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b8-de106"
     } ]
   }, {
     "type": "Observation",
@@ -418,7 +418,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de108"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b8-de108"
     } ]
   } ],
   "content": [ {

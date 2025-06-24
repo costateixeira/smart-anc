@@ -11,7 +11,7 @@
     "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
     "valueString": "executable"
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de130",
+  "url": "http://smart.who.int/anc/ValueSet/anc-b8-de130",
   "name": "TypesofIPVChoices",
   "title": "Types of IPV Choices",
   "status": "draft",
@@ -20,7 +20,7 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "concept": [ {
         "code": "ANC.B8.DE130",
         "display": "Physical violence (e.g. slapping, kicking, burning)"
@@ -39,19 +39,19 @@
   "expansion": {
     "timestamp": "2021-11-30T07:11:23-07:00",
     "contains": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B8.DE130",
       "display": "Physical violence (e.g. slapping, kicking, burning)"
     }, {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B8.DE131",
       "display": "Sexual violence"
     }, {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B8.DE132",
       "display": "Psychological/emotional abuse (e.g. being threatened or intimidated, controlling behaviors, such as taking away money)"
     }, {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B8.DE133",
       "display": "Violence by  other family members (not intimate partner)"
     } ]

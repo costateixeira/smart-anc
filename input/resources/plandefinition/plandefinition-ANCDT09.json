@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCDT09",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCDT09",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCDT09",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.09"
@@ -26,13 +26,13 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B9.",
         "display": "Conduct laboratory tests and imaging"
       } ]
     }
   } ],
-  "library": [ "http://fhir.org/guides/who/anc-cds/Library/ANCDT09" ],
+  "library": [ "http://smart.who.int/anc/Library/ANCDT09" ],
   "action": [ {
     "title": "ANC.DT.09 Heptatitis B testing",
     "trigger": [ {

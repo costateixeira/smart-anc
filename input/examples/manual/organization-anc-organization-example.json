@@ -3,7 +3,7 @@
   "id": "anc-organization-example",
   "meta": {
     "profile": [
-      "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-organization",
+      "http://smart.who.int/anc/StructureDefinition/anc-organization",
       "http://fhir.org/guides/who/core/StructureDefinition/who-organization"
     ]
   },

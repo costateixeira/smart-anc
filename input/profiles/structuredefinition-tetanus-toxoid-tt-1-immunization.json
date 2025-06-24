@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "tetanus-toxoid-tt-1-immunization",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/tetanus-toxoid-tt-1-immunization",
+  "url": "http://smart.who.int/anc/StructureDefinition/tetanus-toxoid-tt-1-immunization",
   "name": "TetanustoxoidTT1Immunization",
   "title": "Tetanus toxoid (TT) 1 Immunization",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B10.7",
         "display": "Immunizations"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Immunization",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-immunization",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-immunization",
   "derivation": "constraint",
   "differential": {
     "element": [ {
@@ -50,7 +50,7 @@
           "valueString": "Tetanus toxoid (TT) 1 immunization provided"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de165"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de165"
       },
       "mapping": [ {
         "identity": "ANC",

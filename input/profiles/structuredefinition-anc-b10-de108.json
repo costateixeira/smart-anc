@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-b10-de108",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b10-de108",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-b10-de108",
   "name": "Reasoncalciumnotprescribed",
   "title": "Reason calcium not prescribed",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B10.5",
         "display": "Nutrition supplementation"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "MedicationRequest",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-medicationnotrequested",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-medicationnotrequested",
   "derivation": "constraint",
   "differential": {
     "element": [ {
@@ -53,7 +53,7 @@
           "valueString": "Reason calcium not prescribed Choices"
         } ],
         "strength": "extensible",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de109"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de109"
       },
       "mapping": [ {
         "identity": "ANC",
@@ -75,7 +75,7 @@
           "valueString": "Reason calcium not prescribed"
         } ],
         "strength": "extensible",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de108"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de108"
       },
       "mapping": [ {
         "identity": "ANC",

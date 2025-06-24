@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-b10-de210",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b10-de210",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-b10-de210",
   "name": "Whatadditionaltypeofcareprovided",
   "title": "What additional type of care provided",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B10.8",
         "display": "Intimate partner violence first-line support and care"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Procedure",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-procedure",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-procedure",
   "derivation": "constraint",
   "differential": {
     "element": [ {
@@ -51,7 +51,7 @@
           "valueString": "What additional type of care provided Choices"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de211"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de211"
       },
       "mapping": [ {
         "identity": "ANC",
@@ -71,7 +71,7 @@
           "valueString": "What additional type of care provided"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de210"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de210"
       },
       "mapping": [ {
         "identity": "ANC",

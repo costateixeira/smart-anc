@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-appointment",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-appointment",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-appointment",
   "name": "ANCAppointment",
   "title": "ANC Appointment",
   "status": "draft",

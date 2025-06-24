@@ -2,7 +2,7 @@
   "resourceType": "Observation",
   "id": "anc-b6-de51-example",
   "meta": {
-    "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b6-de51" ]
+    "profile": [ "http://smart.who.int/anc/StructureDefinition/anc-b6-de51" ]
   },
   "identifier": [ {
     "use": "official",
@@ -12,7 +12,7 @@
   "status": "final",
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B6.DE51",
       "display": "Substance use during past pregnancy specification"
     } ]
@@ -28,7 +28,7 @@
   } ],
   "valueCodeableConcept": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B6.DE53",
       "display": "Cocaine"
     }, {

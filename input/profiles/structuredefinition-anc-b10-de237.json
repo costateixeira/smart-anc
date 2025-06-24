@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-b10-de237",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b10-de237",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-b10-de237",
   "name": "Reasonnopreventativetreatmentprovided",
   "title": "Reason no preventative treatment provided",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B10.9",
         "display": "Deworming & malaria prophylaxis"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "ServiceRequest",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-servicenotrequested",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-servicenotrequested",
   "derivation": "constraint",
   "differential": {
     "element": [ {
@@ -50,7 +50,7 @@
           "valueString": "Reason no preventative treatment provided"
         } ],
         "strength": "extensible",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de237"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de237"
       },
       "mapping": [ {
         "identity": "ANC",
@@ -69,7 +69,7 @@
           "valueString": "Reason no preventative treatment provided Choices"
         } ],
         "strength": "extensible",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de238"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de238"
       },
       "mapping": [ {
         "identity": "ANC",

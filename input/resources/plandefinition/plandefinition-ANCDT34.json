@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCDT34",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCDT34",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCDT34",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.34"
@@ -26,13 +26,13 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B10.",
         "display": "Counselling, in-facility management & treatment"
       } ]
     }
   } ],
-  "library": [ "http://fhir.org/guides/who/anc-cds/Library/ANCDT34" ],
+  "library": [ "http://smart.who.int/anc/Library/ANCDT34" ],
   "action": [ {
     "title": "ANC.DT.34 Birth preparedness counselling",
     "trigger": [ {

@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCB",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCB",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCB",
   "identifier": [ {
     "use": "official",
     "value": "ANC.B"
@@ -26,7 +26,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B",
         "display": "Routine contact"
       } ]
@@ -38,7 +38,7 @@
     "description": "Confirm the woman is pregnant using a urine dipstick test or by a blood test.",
     "code": [{
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B4",
         "display": "Confirm pregnancy"
       }, {
@@ -51,14 +51,14 @@
       "actionId": "5",
       "relationship": "before-start"
     } ],
-    "definitionCanonical": "http://fhir.org/guides/who/anc-cds/ActivityDefinition/ANCB4"
+    "definitionCanonical": "http://smart.who.int/anc/ActivityDefinition/ANCB4"
   }, {
     "id": "5",
     "title": "Quick check",
     "description": "Health worker assesses woman to see whether there are any danger signs that warrant in-facility management or referral, or if possible, to proceed with the routine ANC contact.",
     "code": [ {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B5",
         "display": "Quick check"
       }, {
@@ -71,14 +71,14 @@
       "actionId": "6",
       "relationship": "before-start"
     } ],
-    "definitionCanonical": "http://fhir.org/guides/who/anc-cds/ActivityDefinition/ANCB5"
+    "definitionCanonical": "http://smart.who.int/anc/ActivityDefinition/ANCB5"
   }, {
     "id": "6",
     "title": "Collect woman's profile and history",
     "description": "If this is the woman’s first ANC contact, the health worker records information on her current pregnancy, past medical and obstetric history, medications, behaviour, immunization status and other background information.",
     "code": [ {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B6",
         "display": "Collect woman's profile and history"
       }, {
@@ -91,14 +91,14 @@
       "actionId": "7",
       "relationship": "before-start"
     } ],
-    "definitionCanonical": "http://fhir.org/guides/who/anc-cds/ActivityDefinition/ANCB6"
+    "definitionCanonical": "http://smart.who.int/anc/ActivityDefinition/ANCB6"
   }, {
     "id": "7",
     "title": "Check symptoms and follow up",
     "description": "Health worker follows up on any previously reported behaviours, medications and symptoms. Steps 8–10 below are all conducted within the ANC assessment.",
     "code": [ {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B7",
         "display": "Check symptoms and follow up"
       }, {
@@ -111,14 +111,14 @@
       "actionId": "8",
       "relationship": "before-start"
     } ],
-   "definitionCanonical": "http://fhir.org/guides/who/anc-cds/ActivityDefinition/ANCB7"
+   "definitionCanonical": "http://smart.who.int/anc/ActivityDefinition/ANCB7"
   }, {
     "id": "8",
     "title": "Conduct physical exam",
     "description": "Health worker conducts a physical exam for weight, height (if first contact), maternal exam and fetal assessment.",
     "code": [ {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B8",
         "display": "Conduct physical exam"
         }, {
@@ -131,14 +131,14 @@
       "actionId": "9",
       "relationship": "before-start"
     } ],
-    "definitionCanonical": "http://fhir.org/guides/who/anc-cds/ActivityDefinition/ANCB8"
+    "definitionCanonical": "http://smart.who.int/anc/ActivityDefinition/ANCB8"
   }, {
     "id": "9",
     "title": "Conduct laboratory test and imaging",
     "description": "Health worker orders or follows up on required laboratory tests and ultrasound, as necessary. Health worker informs woman of all tests ordered and explains why.",
     "code": [ {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B9",
         "display": "Conduct laboratory test and imaging"
       }, {
@@ -151,14 +151,14 @@
       "actionId": "10",
       "relationship": "before-start"
     } ],
-    "definitionCanonical": "http://fhir.org/guides/who/anc-cds/ActivityDefinition/ANCB9"
+    "definitionCanonical": "http://smart.who.int/anc/ActivityDefinition/ANCB9"
   }, {
     "id": "10",
     "title": "Counselling, in-facility management and treatment",
     "description": "Based on the previous steps, health worker provides counselling for potential risk, behaviours and diagnoses, as well as preventive services and any treatment that can be provided at the facility, including through admission to a different part of the facility.",
     "code": [ {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B10",
         "display": "Counselling, in-facility management and treatment"
       }, {
@@ -175,14 +175,14 @@
       "actionId": "11",
       "relationship": "before-start"
     } ],
-    "definitionCanonical": "http://fhir.org/guides/who/anc-cds/ActivityDefinition/ANCB10"
+    "definitionCanonical": "http://smart.who.int/anc/ActivityDefinition/ANCB10"
   }, {
     "id": "11",
     "title": "Referral needed?",
     "description": "If there are any diagnoses requiring referral or services that cannot be provided at the facility, health worker refers pregnant woman based on findings during counselling.",
     "code": [ {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B11",
         "display": "Referral needed?"
       }, {
@@ -195,14 +195,14 @@
       "actionId": "12",
       "relationship": "before-start"
     } ],
-    "definitionCanonical": "http://fhir.org/guides/who/anc-cds/ActivityDefinition/ANCB11"
+    "definitionCanonical": "http://smart.who.int/anc/ActivityDefinition/ANCB11"
   }, {
     "id": "12",
     "title": "Scheduling",
     "description": "If a referral is not required, health worker schedules follow-up contact.",
     "code": [ {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B12",
         "display": "Scheduling"
       }, {
@@ -211,6 +211,6 @@
         "display": "Discharge/Referral of Patient"
       } ] }
     ],
-    "definitionCanonical": "http://fhir.org/guides/who/anc-cds/ActivityDefinition/ANCB12"
+    "definitionCanonical": "http://smart.who.int/anc/ActivityDefinition/ANCB12"
   } ]
 }

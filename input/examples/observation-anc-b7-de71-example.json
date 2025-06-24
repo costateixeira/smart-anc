@@ -2,7 +2,7 @@
   "resourceType": "Observation",
   "id": "anc-b7-de71-example",
   "meta": {
-    "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b7-de71" ]
+    "profile": [ "http://smart.who.int/anc/StructureDefinition/anc-b7-de71" ]
   },
   "identifier": [ {
     "use": "official",
@@ -12,7 +12,7 @@
   "status": "final",
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B7.DE71",
       "display": "Presenting signs and symptoms that trigger suspicion of IPV and clinical inquiry"
     } ]
@@ -28,7 +28,7 @@
   } ],
   "valueCodeableConcept": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B7.DE96",
       "display": "Children have emotional and behavioural problems"
     }, {

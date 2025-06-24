@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCDT18",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCDT18",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCDT18",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.18"
@@ -26,13 +26,13 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B10.4.",
         "display": "Diagnosis and treatment"
       } ]
     }
   } ],
-  "library": [ "http://fhir.org/guides/who/anc-cds/Library/ANCDT18" ],
+  "library": [ "http://smart.who.int/anc/Library/ANCDT18" ],
   "action": [ {
     "title": "ANC.DT.18 HIV diagnosis",
     "trigger": [ {

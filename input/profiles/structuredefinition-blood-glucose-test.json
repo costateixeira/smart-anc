@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "blood-glucose-test",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/blood-glucose-test",
+  "url": "http://smart.who.int/anc/StructureDefinition/blood-glucose-test",
   "name": "BloodGlucoseTest",
   "title": "Blood Glucose Test",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B9",
         "display": "Lab tests & imaging"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Procedure",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-procedure",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-procedure",
   "derivation": "constraint",
   "differential": {
     "element": [ {

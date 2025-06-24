@@ -14,7 +14,7 @@ CQL model info.
 */
 define function Extensions(domainResource DomainResource, id String):
   domainResource.extension E
-	  where E.url = ('http://fhir.org/guides/who/anc-cds/StructureDefinition/' + id)
+	  where E.url = ('http://smart.who.int/anc/StructureDefinition/' + id)
 		return E
 
 /*
@@ -32,7 +32,7 @@ content that is defined by extensions but not yet surfaced in the CQL model info
 */
 define function Extensions(element Element, id String):
   element.extension E
-	  where E.url = ('http://fhir.org/guides/who/anc-cds/StructureDefinition/' + id)
+	  where E.url = ('http://smart.who.int/anc/StructureDefinition/' + id)
 		return E
 
 /*
@@ -51,7 +51,7 @@ CQL model info.
 */
 define function ModifierExtensions(domainResource DomainResource, id String):
   domainResource.modifierExtension E
-	  where E.url = ('http://fhir.org/guides/who/anc-cds/StructureDefinition/' + id)
+	  where E.url = ('http://smart.who.int/anc/StructureDefinition/' + id)
 		return E
 
 /*
@@ -69,7 +69,7 @@ content that is defined by extensions but not yet surfaced in the CQL model info
 */
 define function ModifierExtensions(element BackboneElement, id String):
   element.modifierExtension E
-	  where E.url = ('http://fhir.org/guides/who/anc-cds/StructureDefinition/' + id)
+	  where E.url = ('http://smart.who.int/anc/StructureDefinition/' + id)
 		return E
 
 /*

@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCDT24",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCDT24",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCDT24",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.24"
@@ -26,13 +26,13 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B10.4.",
         "display": "Diagnosis and treatment"
       } ]
     }
   } ],
-  "library": [ "http://fhir.org/guides/who/anc-cds/Library/ANCDT24" ],
+  "library": [ "http://smart.who.int/anc/Library/ANCDT24" ],
   "action": [ {
     "title": "ANC.DT.24 TB diagnosis",
     "trigger": [ {

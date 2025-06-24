@@ -9,7 +9,7 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
     "valueCode" : "trial-use"
   }],
-  "url" : "http://fhir.org/guides/who/anc-cds/OperationDefinition/Measure-evaluate-measure",
+  "url" : "http://smart.who.int/anc/OperationDefinition/Measure-evaluate-measure",
   "name" : "Evaluate Measure",
   "status" : "draft",
   "kind" : "operation",

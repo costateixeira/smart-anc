@@ -103,7 +103,7 @@
     <pre class="xml">
 &lt;CarePlan xmlns=&quot;http://hl7.org/fhir&quot;&gt;
   &lt;id value=&quot;charity-with-danger-signs&quot;/&gt;
-	&lt;instantiatesCanonical value=&quot;http://fhir.org/guides/who/anc-cds/PlanDefinition/DT01&quot;/&gt;
+	&lt;instantiatesCanonical value=&quot;http://smart.who.int/anc/PlanDefinition/DT01&quot;/&gt;
   &lt;status value=&quot;active&quot;/&gt;
   &lt;intent value=&quot;plan&quot;/&gt;
   &lt;subject&gt;

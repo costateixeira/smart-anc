@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-c-de5",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-c-de5",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-c-de5",
   "name": "Anytreatmentgivenbeforereferral",
   "title": "Any treatment given before referral",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.C6",
         "display": "Provide information to referral facility"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-observation",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-observation",
   "derivation": "constraint",
   "differential": {
     "element": [ {
@@ -50,7 +50,7 @@
           "valueString": "Any treatment given before referral"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-c-de5"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-c-de5"
       },
       "mapping": [ {
         "identity": "ANC",

@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Library/ANCBaseConcepts",
+  "url": "http://smart.who.int/anc/Library/ANCBaseConcepts",
   "name": "ANCBaseConcepts",
   "title": "ANC Base Concepts",
   "status": "active",
@@ -22,23 +22,23 @@
   "relatedArtifact": [ {
     "type": "depends-on",
     "display": "Value set Antenatal care case",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/antenatal-care-case"
+    "resource": "http://smart.who.int/anc/ValueSet/antenatal-care-case"
   }, {
     "type": "depends-on",
     "display": "Value set Antenatal care contact",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/antenatal-care-contact"
+    "resource": "http://smart.who.int/anc/ValueSet/antenatal-care-contact"
   }, {
     "type": "depends-on",
     "display": "Value set Pregnancy condition",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/pregnancy-condition"
+    "resource": "http://smart.who.int/anc/ValueSet/pregnancy-condition"
   }, {
     "type": "depends-on",
     "display": "Value set Iron supplement",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/iron-supplement"
+    "resource": "http://smart.who.int/anc/ValueSet/iron-supplement"
   }, {
     "type": "depends-on",
     "display": "Value set Folic acid supplement",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/folic-acid-supplement"
+    "resource": "http://smart.who.int/anc/ValueSet/folic-acid-supplement"
   } ],
   "content": [ {
     "contentType": "text/cql",

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-b10-de197",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b10-de197",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-b10-de197",
   "name": "Reasonfluvaccinenotprovided",
   "title": "Reason flu vaccine not provided",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B10.7",
         "display": "Immunizations"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Immunization",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-immunizationnotdone",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-immunizationnotdone",
   "derivation": "constraint",
   "differential": {
     "element": [ {
@@ -50,7 +50,7 @@
           "valueString": "Reason flu vaccine not provided Choices"
         } ],
         "strength": "extensible",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de198"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de198"
       },
       "mapping": [ {
         "identity": "ANC",

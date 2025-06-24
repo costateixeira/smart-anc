@@ -11,7 +11,7 @@
     "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
     "valueString": "executable"
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-a-de14",
+  "url": "http://smart.who.int/anc/ValueSet/anc-a-de14",
   "name": "CohabitantsChoices",
   "title": "Co-habitants Choices",
   "status": "draft",
@@ -20,7 +20,7 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "concept": [ {
         "code": "ANC.A.DE14",
         "display": "Parents"
@@ -45,27 +45,27 @@
   "expansion": {
     "timestamp": "2021-11-30T07:11:22-07:00",
     "contains": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.A.DE14",
       "display": "Parents"
     }, {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.A.DE15",
       "display": "Siblings"
     }, {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.A.DE16",
       "display": "Extended family"
     }, {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.A.DE17",
       "display": "Partner"
     }, {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.A.DE18",
       "display": "Friend(s)"
     }, {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.A.DE19",
       "display": "No one"
     } ]

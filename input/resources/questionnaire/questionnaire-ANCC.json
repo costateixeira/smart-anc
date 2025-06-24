@@ -14,7 +14,7 @@
     "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
     "valueCode": "structured"
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Questionnaire/ANCC",
+  "url": "http://smart.who.int/anc/Questionnaire/ANCC",
   "name": "ANCC",
   "title": "ANC.C. Referral",
   "status": "active",
@@ -28,7 +28,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.C",
         "display": "Referral"
       } ]
@@ -36,59 +36,59 @@
   } ],
   "item": [ {
     "linkId": "1",
-    "definition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/referral#ServiceRequest.code",
+    "definition": "http://smart.who.int/anc/StructureDefinition/referral#ServiceRequest.code",
     "text": "Emergency referral",
     "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-c-de1"
+    "answerValueSet": "http://smart.who.int/anc/ValueSet/anc-c-de1"
   }, {
     "linkId": "2",
-    "definition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-c-de2#ServiceRequest.code",
+    "definition": "http://smart.who.int/anc/StructureDefinition/anc-c-de2#ServiceRequest.code",
     "text": "Reason for referral",
     "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-c-de3"
+    "answerValueSet": "http://smart.who.int/anc/ValueSet/anc-c-de3"
   }, {
     "linkId": "3",
-    "definition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-c-de5#Observation.value[x]",
+    "definition": "http://smart.who.int/anc/StructureDefinition/anc-c-de5#Observation.value[x]",
     "text": "Any treatment given before referral",
     "type": "boolean"
   }, {
     "linkId": "4",
-    "definition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/referral#ServiceRequest.occurrence[x]",
+    "definition": "http://smart.who.int/anc/StructureDefinition/referral#ServiceRequest.occurrence[x]",
     "text": "Date of scheduled referral",
     "type": "dateTime"
   }, {
     "linkId": "5",
-    "definition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/referral#ServiceRequest.locationReference",
+    "definition": "http://smart.who.int/anc/StructureDefinition/referral#ServiceRequest.locationReference",
     "text": "Location of referral",
     "type": "reference"
   }, {
     "linkId": "6",
-    "definition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/referral#ServiceRequest.authoredOn",
+    "definition": "http://smart.who.int/anc/StructureDefinition/referral#ServiceRequest.authoredOn",
     "text": "Date referral was made",
     "type": "dateTime"
   }, {
     "linkId": "7",
-    "definition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/referral#ServiceRequest.requester",
+    "definition": "http://smart.who.int/anc/StructureDefinition/referral#ServiceRequest.requester",
     "text": "Provider who made referral",
     "type": "reference"
   }, {
     "linkId": "8",
-    "definition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/referral-provider#PractitionerRole.location",
+    "definition": "http://smart.who.int/anc/StructureDefinition/referral-provider#PractitionerRole.location",
     "text": "Provider's facility",
     "type": "reference"
   }, {
     "linkId": "9",
-    "definition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/referral-provider#PractitionerRole.telecom.value",
+    "definition": "http://smart.who.int/anc/StructureDefinition/referral-provider#PractitionerRole.telecom.value",
     "text": "Provider's telephone number",
     "type": "string"
   }, {
     "linkId": "10",
-    "definition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/referral#ServiceRequest.note",
+    "definition": "http://smart.who.int/anc/StructureDefinition/referral#ServiceRequest.note",
     "text": "Referral notes",
     "type": "string"
   }, {
     "linkId": "11",
-    "definition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/referral#ServiceRequest.relevantHistory",
+    "definition": "http://smart.who.int/anc/StructureDefinition/referral#ServiceRequest.relevantHistory",
     "text": "Client history summary",
     "type": "reference"
   } ]

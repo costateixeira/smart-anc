@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Library/ANCDT37",
+  "url": "http://smart.who.int/anc/Library/ANCDT37",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.37"
@@ -30,59 +30,59 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRHelpers|4.0.1"
+    "resource": "http://smart.who.int/anc/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library Config",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConfig"
+    "resource": "http://smart.who.int/anc/Library/ANCConfig"
   }, {
     "type": "depends-on",
     "display": "Library Cx",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConcepts"
+    "resource": "http://smart.who.int/anc/Library/ANCConcepts"
   }, {
     "type": "depends-on",
     "display": "Library PatientData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCDataElements"
   }, {
     "type": "depends-on",
     "display": "Library ContactData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCContactDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCContactDataElements"
   }, {
     "type": "depends-on",
     "display": "Library WC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/WHOCommon"
+    "resource": "http://smart.who.int/anc/Library/WHOCommon"
   }, {
     "type": "depends-on",
     "display": "Value set Has the woman  been subjected to intimate partner violence",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de128"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de128"
   }, {
     "type": "depends-on",
     "display": "Value set Safety assessement",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de216"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b10-de216"
   }, {
     "type": "depends-on",
     "display": "Value set Has the physical violence happened more often or gotten worse over the past 6 months",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de217"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b10-de217"
   }, {
     "type": "depends-on",
     "display": "Value set Has he ever used a weapon or threatened you with a weapon",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de218"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b10-de218"
   }, {
     "type": "depends-on",
     "display": "Value set Has he ever tried to strangle you",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de219"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b10-de219"
   }, {
     "type": "depends-on",
     "display": "Value set Do you believe he could kill you",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de222"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b10-de222"
   }, {
     "type": "depends-on",
     "display": "Value set Has he ever beaten you when you were pregnant",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de220"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b10-de220"
   }, {
     "type": "depends-on",
     "display": "Value set Is he violently and constantly jealous of you",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de221"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b10-de221"
   } ],
   "parameter": [ {
     "name": "encounter",
@@ -124,7 +124,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de128"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b8-de128"
     } ]
   }, {
     "type": "Observation",
@@ -132,7 +132,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de216"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de216"
     } ]
   }, {
     "type": "Observation",
@@ -140,7 +140,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de217"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de217"
     } ]
   }, {
     "type": "Observation",
@@ -148,7 +148,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de218"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de218"
     } ]
   }, {
     "type": "Observation",
@@ -156,7 +156,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de219"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de219"
     } ]
   }, {
     "type": "Observation",
@@ -164,7 +164,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de222"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de222"
     } ]
   }, {
     "type": "Observation",
@@ -172,7 +172,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de220"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de220"
     } ]
   }, {
     "type": "Observation",
@@ -180,7 +180,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de221"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de221"
     } ]
   } ],
   "content": [ {

@@ -2,7 +2,7 @@
   "resourceType": "Procedure",
   "id": "urine-test-example",
   "meta": {
-    "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/urine-test" ]
+    "profile": [ "http://smart.who.int/anc/StructureDefinition/urine-test" ]
   },
   "identifier": [ {
     "use": "official",
@@ -12,7 +12,7 @@
   "status": "completed",
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B9.DE114",
       "display": "Urine test conducted"
     }, {

@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Library/ANCBaseDataElements",
+  "url": "http://smart.who.int/anc/Library/ANCBaseDataElements",
   "name": "ANCBaseDataElements",
   "title": "ANC Base Data Elements",
   "status": "active",
@@ -26,19 +26,19 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRHelpers|4.0.1"
+    "resource": "http://smart.who.int/anc/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library AC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCCommon"
+    "resource": "http://smart.who.int/anc/Library/ANCCommon"
   }, {
     "type": "depends-on",
     "display": "Library FC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRCommon"
+    "resource": "http://smart.who.int/anc/Library/FHIRCommon"
   }, {
     "type": "depends-on",
     "display": "Library BCx",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCBaseConcepts"
+    "resource": "http://smart.who.int/anc/Library/ANCBaseConcepts"
   }, {
     "type": "depends-on",
     "display": "Code system Diagnosis Role",
@@ -46,15 +46,15 @@
   }, {
     "type": "depends-on",
     "display": "Value set Antenatal care case",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/antenatal-care-case"
+    "resource": "http://smart.who.int/anc/ValueSet/antenatal-care-case"
   }, {
     "type": "depends-on",
     "display": "Value set Antenatal care contact",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/antenatal-care-contact"
+    "resource": "http://smart.who.int/anc/ValueSet/antenatal-care-contact"
   }, {
     "type": "depends-on",
     "display": "Value set Pregnancy condition",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/pregnancy-condition"
+    "resource": "http://smart.who.int/anc/ValueSet/pregnancy-condition"
   } ],
   "parameter": [ {
     "name": "Patient",
@@ -126,7 +126,7 @@
     "mustSupport": [ "condition", "role", "condition.reference", "type" ],
     "codeFilter": [ {
       "path": "type",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/antenatal-care-case"
+      "valueSet": "http://smart.who.int/anc/ValueSet/antenatal-care-case"
     } ]
   }, {
     "type": "Encounter",
@@ -134,7 +134,7 @@
     "mustSupport": [ "type" ],
     "codeFilter": [ {
       "path": "type",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/antenatal-care-contact"
+      "valueSet": "http://smart.who.int/anc/ValueSet/antenatal-care-contact"
     } ]
   }, {
     "type": "Condition",
@@ -142,7 +142,7 @@
     "mustSupport": [ "code", "id" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/pregnancy-condition"
+      "valueSet": "http://smart.who.int/anc/ValueSet/pregnancy-condition"
     } ]
   } ],
   "content": [ {

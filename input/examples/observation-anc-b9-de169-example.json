@@ -2,7 +2,7 @@
   "resourceType": "Observation",
   "id": "anc-b9-de169-example",
   "meta": {
-    "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b9-de169" ]
+    "profile": [ "http://smart.who.int/anc/StructureDefinition/anc-b9-de169" ]
   },
   "identifier": [ {
     "use": "official",
@@ -12,7 +12,7 @@
   "status": "final",
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B9.DE169",
       "display": "Gestational diabetes mellitus (GDM) diagnosis"
     } ]
@@ -28,7 +28,7 @@
   } ],
   "valueCodeableConcept": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B9.DE171",
       "display": "GDM negative"
     }, {

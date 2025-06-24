@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCDT27",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCDT27",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCDT27",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.27"
@@ -26,13 +26,13 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B6.",
         "display": "Collect woman's profile & history"
       } ]
     }
   } ],
-  "library": [ "http://fhir.org/guides/who/anc-cds/Library/ANCDT27" ],
+  "library": [ "http://smart.who.int/anc/Library/ANCDT27" ],
   "action": [ {
     "title": "ANC.DT.27 Pre-eclampsia risk counselling",
     "trigger": [ {

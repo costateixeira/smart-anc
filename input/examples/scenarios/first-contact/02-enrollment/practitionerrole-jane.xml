@@ -2,7 +2,7 @@
 <PractitionerRole xmlns="http://hl7.org/fhir">
 	<id value="jane"/>
 	<meta>
-		<profile value="http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-practitionerrole"/>
+		<profile value="http://smart.who.int/anc/StructureDefinition/anc-practitionerrole"/>
 		<profile value="http://fhir.org/guides/who/core/StructureDefinition/who-practitionerrole"/>
 	</meta>
 
@@ -17,7 +17,7 @@
 
 	<code>
 		<coding>
-			<system value="http://fhir.org/guides/who/anc-cds/CodeSystem/anc-persona"/>
+			<system value="http://smart.who.int/anc/CodeSystem/anc-persona"/>
 			<code value="NRS"/>
 			<display value="Nurse"/>
 		</coding>

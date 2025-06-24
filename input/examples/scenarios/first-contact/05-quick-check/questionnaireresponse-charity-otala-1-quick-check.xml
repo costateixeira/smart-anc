@@ -4,7 +4,7 @@
 
 	<!-- TODO: identifier -->
 
-  <questionnaire value="http://fhir.org/guides/who/anc-cds/Questionnaire/ANCB5"/>
+  <questionnaire value="http://smart.who.int/anc/Questionnaire/ANCB5"/>
   <status value="completed"/>
   <subject>
     <reference value="Patient/charity-otala-1"/>
@@ -21,11 +21,11 @@
   </source>
   <item>
     <linkId value="1"/>
-    <definition value="http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-encounter#Encounter.reasonCode"/>
+    <definition value="http://smart.who.int/anc/StructureDefinition/anc-encounter#Encounter.reasonCode"/>
     <text value="Reason for coming to facility"/>
     <answer>
       <valueCoding>
-        <system value="http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom"/>
+        <system value="http://smart.who.int/anc/CodeSystem/anc-custom"/>
         <code value="Reason for coming to facility-First antenatal care contact"/>
         <display value="First antenatal care contact"/>
       </valueCoding>
@@ -33,16 +33,16 @@
   </item>
   <item>
     <linkId value="2"/>
-    <definition value="http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b5-de5#Observation.value[x]"/>
+    <definition value="http://smart.who.int/anc/StructureDefinition/anc-b5-de5#Observation.value[x]"/>
     <text value="Specific health concern(s)"/>
   </item>
   <item>
     <linkId value="3"/>
-    <definition value="http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b5-de48#Observation.value[x]"/>
+    <definition value="http://smart.who.int/anc/StructureDefinition/anc-b5-de48#Observation.value[x]"/>
     <text value="Danger signs"/>
     <answer>
       <valueCoding>
-        <system value="http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes"/>
+        <system value="http://smart.who.int/anc/CodeSystem/anc-custom-codes"/>
         <code value="ANC.B5.DE49"/>
         <display value="No danger signs"/>
       </valueCoding>

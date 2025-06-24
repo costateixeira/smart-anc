@@ -2,7 +2,7 @@
   "resourceType": "Condition",
   "id": "anc-b10-de74-example",
   "meta": {
-    "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b10-de74" ]
+    "profile": [ "http://smart.who.int/anc/StructureDefinition/anc-b10-de74" ]
   },
   "identifier": [ {
     "use": "official",
@@ -23,7 +23,7 @@
   },
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B10.DE74",
       "display": "Severe hypertension"
     }, {

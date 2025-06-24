@@ -11,7 +11,7 @@
     "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
     "valueString": "executable"
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de66",
+  "url": "http://smart.who.int/anc/ValueSet/anc-b7-de66",
   "name": "CurrentphysiologicalsymptomsVaginalbleedingChoices",
   "title": "Current physiological symptoms - Vaginal bleeding Choices",
   "status": "draft",
@@ -20,7 +20,7 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "concept": [ {
         "code": "ANC.B7.DE66",
         "display": "Vaginal bleeding"
@@ -30,7 +30,7 @@
   "expansion": {
     "timestamp": "2021-11-30T07:11:23-07:00",
     "contains": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B7.DE66",
       "display": "Vaginal bleeding"
     } ]

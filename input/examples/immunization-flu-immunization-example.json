@@ -2,7 +2,7 @@
   "resourceType": "Immunization",
   "id": "flu-immunization-example",
   "meta": {
-    "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/flu-immunization" ]
+    "profile": [ "http://smart.who.int/anc/StructureDefinition/flu-immunization" ]
   },
   "identifier": [ {
     "use": "official",
@@ -12,7 +12,7 @@
   "status": "completed",
   "vaccineCode": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B10.DE195",
       "display": "Flu immunization provided"
     }, {

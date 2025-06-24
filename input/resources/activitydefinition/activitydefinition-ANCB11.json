@@ -15,9 +15,9 @@
     "valueCode" : "structured"
   }, {
     "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-collectWith",
-    "valueCanonical": "http://fhir.org/guides/who/anc-cds/Questionnaire/ANCB11"
+    "valueCanonical": "http://smart.who.int/anc/Questionnaire/ANCB11"
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/ActivityDefinition/ANCB11",
+  "url": "http://smart.who.int/anc/ActivityDefinition/ANCB11",
   "identifier": [ {
     "use": "official",
     "value": "ANC.B11"
@@ -36,7 +36,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B11",
         "display": "Urgent referral needed?"
       } ]

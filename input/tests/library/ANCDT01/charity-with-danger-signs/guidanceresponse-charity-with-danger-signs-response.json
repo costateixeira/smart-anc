@@ -21,7 +21,7 @@
       ]
     }
   ],
-  "moduleCanonical": "http://fhir.org/guides/who/anc-cds/Library/ANCDT01",
+  "moduleCanonical": "http://smart.who.int/anc/Library/ANCDT01",
   "status": "success",
   "subject": {
     "reference": "Patient/charity-with-danger-signs"

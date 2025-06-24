@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Library/ANCIND11",
+  "url": "http://smart.who.int/anc/Library/ANCIND11",
   "name": "ANCIND11",
   "title": "ANC.IND.11 Percentage of women who received three doses or more of intermittent preventive therapy for malaria (IPTp) during their last pregnancy",
   "status": "active",
@@ -26,43 +26,43 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRHelpers|4.0.1"
+    "resource": "http://smart.who.int/anc/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library FC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRCommon"
+    "resource": "http://smart.who.int/anc/Library/FHIRCommon"
   }, {
     "type": "depends-on",
     "display": "Library AC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCCommon"
+    "resource": "http://smart.who.int/anc/Library/ANCCommon"
   }, {
     "type": "depends-on",
     "display": "Library BCx",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCBaseConcepts"
+    "resource": "http://smart.who.int/anc/Library/ANCBaseConcepts"
   }, {
     "type": "depends-on",
     "display": "Library Cx",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConcepts"
+    "resource": "http://smart.who.int/anc/Library/ANCConcepts"
   }, {
     "type": "depends-on",
     "display": "Library BaseData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCBaseDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCBaseDataElements"
   }, {
     "type": "depends-on",
     "display": "Library PatientData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCDataElements"
   }, {
     "type": "depends-on",
     "display": "Library ContactData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCContactDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCContactDataElements"
   }, {
     "type": "depends-on",
     "display": "Library Stratifiers",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCStratifiers"
+    "resource": "http://smart.who.int/anc/Library/ANCStratifiers"
   }, {
     "type": "depends-on",
     "display": "Library WC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/WHOCommon"
+    "resource": "http://smart.who.int/anc/Library/WHOCommon"
   }, {
     "type": "depends-on",
     "display": "Code system ISO-8601-Derived Periods",
@@ -70,19 +70,19 @@
   }, {
     "type": "depends-on",
     "display": "Value set Antenatal care case",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/antenatal-care-case"
+    "resource": "http://smart.who.int/anc/ValueSet/antenatal-care-case"
   }, {
     "type": "depends-on",
     "display": "Value set IPTp-SP dose 3 provided",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de249"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b10-de249"
   }, {
     "type": "depends-on",
     "display": "Value set Reason for closing ANC record",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-end-1"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-end-1"
   }, {
     "type": "depends-on",
     "display": "Value set Qualifying Reason for closing ANC record Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/qualifying-reason-for-closing-anc-record-choices"
+    "resource": "http://smart.who.int/anc/ValueSet/qualifying-reason-for-closing-anc-record-choices"
   } ],
   "parameter": [ {
     "name": "Measurement Period",
@@ -137,7 +137,7 @@
     "mustSupport": [ "type" ],
     "codeFilter": [ {
       "path": "type",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/antenatal-care-case"
+      "valueSet": "http://smart.who.int/anc/ValueSet/antenatal-care-case"
     } ]
   }, {
     "type": "Immunization",
@@ -145,7 +145,7 @@
     "mustSupport": [ "vaccineCode", "status", "occurrence" ],
     "codeFilter": [ {
       "path": "vaccineCode",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de249"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de249"
     } ]
   }, {
     "type": "Observation",
@@ -153,7 +153,7 @@
     "mustSupport": [ "code", "status", "effective", "value" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-end-1"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-end-1"
     } ]
   } ],
   "content": [ {

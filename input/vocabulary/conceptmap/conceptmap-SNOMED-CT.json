@@ -1,14 +1,14 @@
 {
   "resourceType": "ConceptMap",
   "id": "SNOMED-CT",
-  "url": "http://fhir.org/guides/who/anc-cds/ConceptMap/SNOMED-CT",
+  "url": "http://smart.who.int/anc/ConceptMap/SNOMED-CT",
   "name": "SNOMED-CT",
   "title": "SNOMED-CT",
   "status": "draft",
   "experimental": false,
   "description": "Concept mapping from content extended codes to SNOMED-CT",
   "group": [ {
-    "source": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+    "source": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
     "target": "http://snomed.info/sct",
     "element": [ {
       "code": "ANC.A.DE14",

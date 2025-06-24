@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-b10-de66",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b10-de66",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-b10-de66",
   "name": "Reasoncounsellingonincreasingdailyenergyandproteinintakewasnotconducted",
   "title": "Reason counselling on increasing daily energy and protein intake was not conducted",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B10.3",
         "display": "Diet counselling"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Procedure",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-procedurenotdone",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-procedurenotdone",
   "derivation": "constraint",
   "differential": {
     "element": [ {
@@ -50,7 +50,7 @@
           "valueString": "Procedure Not Done Reason Choices"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de3"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de3"
       },
       "mapping": [ {
         "identity": "ANC",
@@ -69,7 +69,7 @@
           "valueString": "Counselling on Increasing Daily Energy Protein Intake"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de66"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de66"
       },
       "mapping": [ {
         "identity": "ANC",

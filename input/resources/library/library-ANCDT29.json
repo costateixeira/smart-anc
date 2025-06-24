@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Library/ANCDT29",
+  "url": "http://smart.who.int/anc/Library/ANCDT29",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.29"
@@ -30,83 +30,83 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRHelpers|4.0.1"
+    "resource": "http://smart.who.int/anc/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library BaseDataElements",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCBaseDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCBaseDataElements"
   }, {
     "type": "depends-on",
     "display": "Library Config",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConfig"
+    "resource": "http://smart.who.int/anc/Library/ANCConfig"
   }, {
     "type": "depends-on",
     "display": "Library Cx",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConcepts"
+    "resource": "http://smart.who.int/anc/Library/ANCConcepts"
   }, {
     "type": "depends-on",
     "display": "Library PatientData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCDataElements"
   }, {
     "type": "depends-on",
     "display": "Library ContactData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCContactDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCContactDataElements"
   }, {
     "type": "depends-on",
     "display": "Library WC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/WHOCommon"
+    "resource": "http://smart.who.int/anc/Library/WHOCommon"
   }, {
     "type": "depends-on",
     "display": "Library AC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCCommon"
+    "resource": "http://smart.who.int/anc/Library/ANCCommon"
   }, {
     "type": "depends-on",
     "display": "Value set HIV status",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de45"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de45"
   }, {
     "type": "depends-on",
     "display": "Value set HIV status - HIV negative Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de47"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de47"
   }, {
     "type": "depends-on",
     "display": "Value set Partner HIV status (reported)",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de156"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de156"
   }, {
     "type": "depends-on",
     "display": "Value set Partner HIV status (reported) - HIV Positive Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de157"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de157"
   }, {
     "type": "depends-on",
     "display": "Value set Partner HIV test result",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de48"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de48"
   }, {
     "type": "depends-on",
     "display": "Value set Partner HIV test result - Partner HIV positive Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de52"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de52"
   }, {
     "type": "depends-on",
     "display": "Value set Partner HIV status (confirmed)",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de55"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de55"
   }, {
     "type": "depends-on",
     "display": "Value set Partner HIV status (confirmed) - HIV positive Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de56"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de56"
   }, {
     "type": "depends-on",
     "display": "Value set Current alcohol and/or other substance use",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de146"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de146"
   }, {
     "type": "depends-on",
     "display": "Value set Current alcohol and/or other substance use - Injectable drugs Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de150"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de150"
   }, {
     "type": "depends-on",
     "display": "Value set Occupation - Employment that puts woman at increased risk for HIV (e.g. sex worker) Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de11"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de11"
   }, {
     "type": "depends-on",
     "display": "Value set Partner HIV status (reported) - Inconclusive Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de159"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de159"
   } ],
   "parameter": [ {
     "name": "encounter",
@@ -148,7 +148,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference", "value" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de146"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de146"
     } ]
   }, {
     "type": "Observation",
@@ -156,7 +156,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de45"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b9-de45"
     } ]
   }, {
     "type": "Observation",
@@ -164,7 +164,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de156"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de156"
     } ]
   }, {
     "type": "Observation",
@@ -172,7 +172,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de48"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b9-de48"
     } ]
   }, {
     "type": "Observation",
@@ -180,7 +180,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de55"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b9-de55"
     } ]
   } ],
   "content": [ {

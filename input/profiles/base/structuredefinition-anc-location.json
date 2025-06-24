@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-location",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-location",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-location",
   "name": "ANCLocation",
   "title": "ANC Location",
   "status": "draft",
@@ -26,7 +26,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-organization"
+              "http://smart.who.int/anc/StructureDefinition/anc-organization"
             ]
           }
         ]
@@ -38,7 +38,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-location"
+              "http://smart.who.int/anc/StructureDefinition/anc-location"
             ]
           }
         ]

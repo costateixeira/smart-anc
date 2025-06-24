@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Library/ANCDT35",
+  "url": "http://smart.who.int/anc/Library/ANCDT35",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.35"
@@ -30,27 +30,27 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRHelpers|4.0.1"
+    "resource": "http://smart.who.int/anc/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library Cx",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConcepts"
+    "resource": "http://smart.who.int/anc/Library/ANCConcepts"
   }, {
     "type": "depends-on",
     "display": "Library PatientData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCDataElements"
   }, {
     "type": "depends-on",
     "display": "Library ContactData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCContactDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCContactDataElements"
   }, {
     "type": "depends-on",
     "display": "Library WC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/WHOCommon"
+    "resource": "http://smart.who.int/anc/Library/WHOCommon"
   }, {
     "type": "depends-on",
     "display": "Value set Pregnancy confirmed",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b4-de1"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b4-de1"
   } ],
   "parameter": [ {
     "name": "encounter",
@@ -80,7 +80,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b4-de1"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b4-de1"
     } ]
   } ],
   "content": [ {

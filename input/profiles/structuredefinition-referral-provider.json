@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "referral-provider",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/referral-provider",
+  "url": "http://smart.who.int/anc/StructureDefinition/referral-provider",
   "name": "ReferralProvider",
   "title": "Referral Provider",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.C6",
         "display": "Provide information to referral facility"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "PractitionerRole",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-practitionerrole",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-practitionerrole",
   "derivation": "constraint",
   "differential": {
     "element": [ {

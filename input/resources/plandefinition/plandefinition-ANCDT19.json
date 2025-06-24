@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCDT19",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCDT19",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCDT19",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.19"
@@ -26,13 +26,13 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B10.4.",
         "display": "Diagnosis and treatment"
       } ]
     }
   } ],
-  "library": [ "http://fhir.org/guides/who/anc-cds/Library/ANCDT19" ],
+  "library": [ "http://smart.who.int/anc/Library/ANCDT19" ],
   "action": [ {
     "title": "ANC.DT.19 Hepatitis B diagnosis",
     "trigger": [ {

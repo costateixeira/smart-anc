@@ -2,7 +2,7 @@
 <PractitionerRole xmlns="http://hl7.org/fhir">
 	<id value="midwife-amina-second-contact"/>
 	<meta>
-		<profile value="http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-practitionerrole"/>
+		<profile value="http://smart.who.int/anc/StructureDefinition/anc-practitionerrole"/>
 	</meta>
 
 	<!-- TODO: identifier -->

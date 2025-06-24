@@ -1,7 +1,7 @@
 {
   "resourceType": "GuidanceResponse",
   "id": "charity-with-danger-signs-response",
-  "moduleCanonical": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCDT01",
+  "moduleCanonical": "http://smart.who.int/anc/PlanDefinition/ANCDT01",
   "status": "success",
   "subject": {
     "reference": "Patient/charity-with-danger-signs"

@@ -2,7 +2,7 @@
   "resourceType": "Observation",
   "id": "anc-b7-de97-example",
   "meta": {
-    "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b7-de97" ]
+    "profile": [ "http://smart.who.int/anc/StructureDefinition/anc-b7-de97" ]
   },
   "identifier": [ {
     "use": "official",
@@ -12,7 +12,7 @@
   "status": "final",
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B7.DE97",
       "display": "Woman discloses or is suspected to be subjected to intimate partner violence"
     }, {

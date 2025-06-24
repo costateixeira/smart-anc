@@ -4,7 +4,7 @@
 
 	<!-- TODO: identifier -->
 
-  <questionnaire value="http://fhir.org/guides/who/anc-cds/Questionnaire/ANCB4"/>
+  <questionnaire value="http://smart.who.int/anc/Questionnaire/ANCB4"/>
   <status value="completed"/>
   <subject>
     <reference value="Patient/charity-otala-1"/>
@@ -21,7 +21,7 @@
   </source>
   <item>
     <linkId value="1"/>
-    <definition value="http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b4-de1#Observation.value[x]"/>
+    <definition value="http://smart.who.int/anc/StructureDefinition/anc-b4-de1#Observation.value[x]"/>
     <text value="Pregnancy confirmed"/>
     <answer>
       <valueBoolean value="true"/>

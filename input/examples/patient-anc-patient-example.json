@@ -3,8 +3,8 @@
   "id": "anc-patient-example",
   "meta": {
     "profile": [
-      "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-patient",
-      "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-patient",
+      "http://smart.who.int/anc/StructureDefinition/anc-patient",
+      "http://smart.who.int/anc/StructureDefinition/anc-base-patient",
       "http://fhir.org/guides/who/core/StructureDefinition/who-patient"
     ]
   },

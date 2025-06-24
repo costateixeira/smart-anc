@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-group",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-group",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-group",
   "name": "ANCGroup",
   "title": "ANC Group",
   "status": "draft",
@@ -30,7 +30,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-patient"
+              "http://smart.who.int/anc/StructureDefinition/anc-base-patient"
             ]
           }
         ]

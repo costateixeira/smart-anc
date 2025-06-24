@@ -4,7 +4,7 @@
 	<meta>
 		<profile value="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-appointment"/>
 		<profile value="http://fhir.org/guides/who/core/StructureDefinition/who-appointment"/>
-		<profile value="http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-appointment"/>
+		<profile value="http://smart.who.int/anc/StructureDefinition/anc-appointment"/>
 	</meta>
 	<status value="booked"/>
 	<!-- TODO: serviceCategory -->

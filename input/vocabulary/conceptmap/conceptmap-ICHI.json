@@ -1,14 +1,14 @@
 {
   "resourceType": "ConceptMap",
   "id": "ICHI",
-  "url": "http://fhir.org/guides/who/anc-cds/ConceptMap/ICHI",
+  "url": "http://smart.who.int/anc/ConceptMap/ICHI",
   "name": "ICHI",
   "title": "ICHI",
   "status": "draft",
   "experimental": false,
   "description": "Concept mapping from content extended codes to ICHI",
   "group": [ {
-    "source": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+    "source": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
     "target": "https://mitel.dimi.uniud.it/ichi/#http://id.who.int/ichi",
     "element": [ {
       "code": "ANC.B6.DE15",

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-b10-de74",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b10-de74",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-b10-de74",
   "name": "Severehypertension",
   "title": "Severe hypertension",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B10.4",
         "display": "Diagnosis & treatment"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Condition",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-condition",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-condition",
   "derivation": "constraint",
   "differential": {
     "element": [ {
@@ -50,7 +50,7 @@
           "valueString": "Severe hypertension"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de74"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de74"
       },
       "mapping": [ {
         "identity": "ANC",

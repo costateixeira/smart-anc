@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Library/ANCDT22",
+  "url": "http://smart.who.int/anc/Library/ANCDT22",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.22"
@@ -30,63 +30,63 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRHelpers|4.0.1"
+    "resource": "http://smart.who.int/anc/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library Config",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConfig"
+    "resource": "http://smart.who.int/anc/Library/ANCConfig"
   }, {
     "type": "depends-on",
     "display": "Library Cx",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConcepts"
+    "resource": "http://smart.who.int/anc/Library/ANCConcepts"
   }, {
     "type": "depends-on",
     "display": "Library PatientData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCDataElements"
   }, {
     "type": "depends-on",
     "display": "Library ContactData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCContactDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCContactDataElements"
   }, {
     "type": "depends-on",
     "display": "Library WC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/WHOCommon"
+    "resource": "http://smart.who.int/anc/Library/WHOCommon"
   }, {
     "type": "depends-on",
     "display": "Value set Midstream urine culture (recommended)",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de124"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de124"
   }, {
     "type": "depends-on",
     "display": "Value set Midstream urine culture (recommended) - Positive - Any agent Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de126"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de126"
   }, {
     "type": "depends-on",
     "display": "Value set Midstream urine culture (recommended) - Positive - Group B Strep (GBS) Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de127"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de127"
   }, {
     "type": "depends-on",
     "display": "Value set Midstream urine Gram-staining",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de129"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de129"
   }, {
     "type": "depends-on",
     "display": "Value set Midstream urine Gram-staining - Positive Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de130"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de130"
   }, {
     "type": "depends-on",
     "display": "Value set Urine dipstick result - nitrites",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de132"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de132"
   }, {
     "type": "depends-on",
     "display": "Value set Urine dipstick result - nitrites Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de134"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de134"
   }, {
     "type": "depends-on",
     "display": "Value set Urine dipstick result - leukocytes",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de138"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de138"
   }, {
     "type": "depends-on",
     "display": "Value set Urine dipstick result - leukocytes Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de140"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de140"
   } ],
   "parameter": [ {
     "name": "encounter",
@@ -122,7 +122,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de124"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b9-de124"
     } ]
   }, {
     "type": "Observation",
@@ -130,7 +130,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de129"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b9-de129"
     } ]
   }, {
     "type": "Observation",
@@ -138,7 +138,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de132"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b9-de132"
     } ]
   }, {
     "type": "Observation",
@@ -146,7 +146,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de138"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b9-de138"
     } ]
   } ],
   "content": [ {

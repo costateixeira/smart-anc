@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-b10-de143",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b10-de143",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-b10-de143",
   "name": "CounsellingconductedonintrapartumantibiotictopreventearlyneonatalGroupBStreptococcusGBSinfection",
   "title": "Counselling conducted on intrapartum antibiotic to prevent early neonatal Group B Streptococcus (GBS) infection",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B10.6",
         "display": "Risk reduction & general counselling"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Procedure",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-procedure",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-procedure",
   "derivation": "constraint",
   "differential": {
     "element": [ {
@@ -51,7 +51,7 @@
           "valueString": "Counselling conducted on intrapartum antibiotic to prevent early neonatal Group B Streptococcus (GBS) infection"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de143"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de143"
       },
       "mapping": [ {
         "identity": "ANC",

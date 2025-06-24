@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Library/ANCDT34",
+  "url": "http://smart.who.int/anc/Library/ANCDT34",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.34"
@@ -30,115 +30,115 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRHelpers|4.0.1"
+    "resource": "http://smart.who.int/anc/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library Config",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConfig"
+    "resource": "http://smart.who.int/anc/Library/ANCConfig"
   }, {
     "type": "depends-on",
     "display": "Library Cx",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConcepts"
+    "resource": "http://smart.who.int/anc/Library/ANCConcepts"
   }, {
     "type": "depends-on",
     "display": "Library PatientData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCDataElements"
   }, {
     "type": "depends-on",
     "display": "Library ContactData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCContactDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCContactDataElements"
   }, {
     "type": "depends-on",
     "display": "Library WC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/WHOCommon"
+    "resource": "http://smart.who.int/anc/Library/WHOCommon"
   }, {
     "type": "depends-on",
     "display": "Value set Fetal presentation",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de111"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de111"
   }, {
     "type": "depends-on",
     "display": "Value set Fetal presentation - Transverse fetal presentation Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de115"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de115"
   }, {
     "type": "depends-on",
     "display": "Value set Fetal presentation - Other fetal presentation (specify) Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de116"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de116"
   }, {
     "type": "depends-on",
     "display": "Value set Number of caesarian sections",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de33"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de33"
   }, {
     "type": "depends-on",
     "display": "Value set Number of fetuses",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de109"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de109"
   }, {
     "type": "depends-on",
     "display": "Value set Family planning method selected",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de145"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b10-de145"
   }, {
     "type": "depends-on",
     "display": "Value set Family planning method selected - Copper-bearing intrauterine device (Cu-IUD) Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de146"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b10-de146"
   }, {
     "type": "depends-on",
     "display": "Value set Family planning method selected - Levonorgestrel intrauterine device (LNG-IUD) Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de147"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b10-de147"
   }, {
     "type": "depends-on",
     "display": "Value set Family planning method selected - Female sterilization Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de162"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b10-de162"
   }, {
     "type": "depends-on",
     "display": "Value set Past pregnancy complications",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de34"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de34"
   }, {
     "type": "depends-on",
     "display": "Value set Past pregnancy complications - Convulsions Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de41"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de41"
   }, {
     "type": "depends-on",
     "display": "Value set Past pregnancy complications - Heavy bleeding (during or after delivery) Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de44"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de44"
   }, {
     "type": "depends-on",
     "display": "Value set Past pregnancy complications - Forceps Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de42"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de42"
   }, {
     "type": "depends-on",
     "display": "Value set Past pregnancy complications - Perineal tear (3rd or 4th degree) Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de46"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de46"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de43"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de43"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Vaginal bleeding Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de66"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de66"
   }, {
     "type": "depends-on",
     "display": "Value set Number of pregnancies (gravida)",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de24"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de24"
   }, {
     "type": "depends-on",
     "display": "Value set Parity",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de32"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de32"
   }, {
     "type": "depends-on",
     "display": "Value set HIV status",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de45"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de45"
   }, {
     "type": "depends-on",
     "display": "Value set HIV status - HIV positive Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de46"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de46"
   }, {
     "type": "depends-on",
     "display": "Value set Planned birth place",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de137"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b10-de137"
   }, {
     "type": "depends-on",
     "display": "Value set Planned birth place - Home Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de140"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b10-de140"
   } ],
   "parameter": [ {
     "name": "encounter",
@@ -174,7 +174,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference", "value" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de34"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de34"
     } ]
   }, {
     "type": "Observation",
@@ -182,7 +182,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference", "value" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de43"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b7-de43"
     } ]
   }, {
     "type": "Observation",
@@ -190,7 +190,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de111"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b8-de111"
     } ]
   }, {
     "type": "Observation",
@@ -198,7 +198,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de33"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de33"
     } ]
   }, {
     "type": "Observation",
@@ -206,7 +206,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de109"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b8-de109"
     } ]
   }, {
     "type": "Observation",
@@ -214,7 +214,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de145"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de145"
     } ]
   }, {
     "type": "Observation",
@@ -222,7 +222,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de24"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de24"
     } ]
   }, {
     "type": "Observation",
@@ -230,7 +230,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de32"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de32"
     } ]
   }, {
     "type": "Observation",
@@ -238,7 +238,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de45"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b9-de45"
     } ]
   }, {
     "type": "Observation",
@@ -246,7 +246,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de137"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de137"
     } ]
   } ],
   "content": [ {

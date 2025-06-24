@@ -1,13 +1,13 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
     <id value="anc-care-codes"/>
-    <url value="http://fhir.org/guides/who/anc-cds/CodeSystem/anc-care-codes"/>
+    <url value="http://smart.who.int/anc/CodeSystem/anc-care-codes"/>
 		<name value="ANCCareCodes"/>
     <title value="ANC Care Codes"/>
     <status value="draft"/>
     <experimental value="false"/>
     <description value="Care codes are high-level codes used to identify types and categories of care for use in encounters, episodes, and care categories throughout Antenatal care guideline computable content."/>
     <caseSensitive value="true"/>
-    <valueSet value="http://fhir.org/guides/who/anc-cds/ValueSet/anc-care-codes"/>
+    <valueSet value="http://smart.who.int/anc/ValueSet/anc-care-codes"/>
     <content value="complete"/>
 		<concept>
 			<code value="ANC.Case"/>

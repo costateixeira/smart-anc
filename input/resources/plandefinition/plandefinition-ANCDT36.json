@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCDT36",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCDT36",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCDT36",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.36"
@@ -26,13 +26,13 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B10.8.",
         "display": "Intimate partner violence counselling"
       } ]
     }
   } ],
-  "library": [ "http://fhir.org/guides/who/anc-cds/Library/ANCDT36" ],
+  "library": [ "http://smart.who.int/anc/Library/ANCDT36" ],
   "action": [ {
     "title": "ANC.DT.36 Intimate partner violence (IPV) clinical inquiry",
     "trigger": [ {

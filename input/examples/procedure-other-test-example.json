@@ -2,7 +2,7 @@
   "resourceType": "Procedure",
   "id": "other-test-example",
   "meta": {
-    "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/other-test" ]
+    "profile": [ "http://smart.who.int/anc/StructureDefinition/other-test" ]
   },
   "identifier": [ {
     "use": "official",
@@ -12,7 +12,7 @@
   "status": "completed",
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B9.DE211",
       "display": "Other tests conducted"
     }, {

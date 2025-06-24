@@ -4,7 +4,7 @@
   <contained>
     <RequestGroup>
       <id value="requestgroup-anc-b"/>
-      <instantiatesCanonical value="http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCB"/>
+      <instantiatesCanonical value="http://smart.who.int/anc/PlanDefinition/ANCB"/>
       <status value="draft"/>
       <intent value="proposal"/>
       <subject>
@@ -114,12 +114,12 @@
   <contained>
     <Task>
       <id value="task-anc-b4"/>
-      <instantiatesCanonical value="http://fhir.org/guides/who/anc-cds/ActivityDefinition/ANCB4"/>
+      <instantiatesCanonical value="http://smart.who.int/anc/ActivityDefinition/ANCB4"/>
       <status value="draft"/>
       <intent value="proposal"/>
       <code>
         <coding>
-          <system value="http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes"/>
+          <system value="http://smart.who.int/anc/CodeSystem/activity-codes"/>
           <code value="ANC.B4"/>
           <display value="Confirm pregnancy"/>
         </coding>
@@ -142,17 +142,17 @@
             <display value="Collect Information"/>
           </coding>
         </type>
-        <valueCanonical value="http://fhir.org/guides/who/anc-cds/Questionnaire/ANCB4"/>
+        <valueCanonical value="http://smart.who.int/anc/Questionnaire/ANCB4"/>
       </input>
     </Task>
     <Task>
       <id value="task-anc-b5"/>
-      <instantiatesCanonical value="http://fhir.org/guides/who/anc-cds/ActivityDefinition/ANCB5"/>
+      <instantiatesCanonical value="http://smart.who.int/anc/ActivityDefinition/ANCB5"/>
       <status value="draft"/>
       <intent value="proposal"/>
       <code>
         <coding>
-          <system value="http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes"/>
+          <system value="http://smart.who.int/anc/CodeSystem/activity-codes"/>
           <code value="ANC.B5"/>
           <display value="Quick check"/>
         </coding>
@@ -175,17 +175,17 @@
             <display value="Collect Information"/>
           </coding>
         </type>
-        <valueCanonical value="http://fhir.org/guides/who/anc-cds/Questionnaire/ANCB5"/>
+        <valueCanonical value="http://smart.who.int/anc/Questionnaire/ANCB5"/>
       </input>
     </Task>
     <Task>
       <id value="task-anc-b6"/>
-      <instantiatesCanonical value="http://fhir.org/guides/who/anc-cds/ActivityDefinition/ANCB6"/>
+      <instantiatesCanonical value="http://smart.who.int/anc/ActivityDefinition/ANCB6"/>
       <status value="draft"/>
       <intent value="proposal"/>
       <code>
         <coding>
-          <system value="http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes"/>
+          <system value="http://smart.who.int/anc/CodeSystem/activity-codes"/>
           <code value="ANC.B6"/>
           <display value="Profile"/>
         </coding>
@@ -208,17 +208,17 @@
             <display value="Collect Information"/>
           </coding>
         </type>
-        <valueCanonical value="http://fhir.org/guides/who/anc-cds/Questionnaire/ANCB6"/>
+        <valueCanonical value="http://smart.who.int/anc/Questionnaire/ANCB6"/>
       </input>
     </Task>
     <Task>
       <id value="task-anc-b7"/>
-      <instantiatesCanonical value="http://fhir.org/guides/who/anc-cds/ActivityDefinition/ANCB7"/>
+      <instantiatesCanonical value="http://smart.who.int/anc/ActivityDefinition/ANCB7"/>
       <status value="draft"/>
       <intent value="proposal"/>
       <code>
         <coding>
-          <system value="http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes"/>
+          <system value="http://smart.who.int/anc/CodeSystem/activity-codes"/>
           <code value="ANC.B7"/>
           <display value="Symptoms and Followup"/>
         </coding>
@@ -241,17 +241,17 @@
             <display value="Collect Information"/>
           </coding>
         </type>
-        <valueCanonical value="http://fhir.org/guides/who/anc-cds/Questionnaire/ANCB7"/>
+        <valueCanonical value="http://smart.who.int/anc/Questionnaire/ANCB7"/>
       </input>
     </Task>
     <Task>
       <id value="task-anc-b8"/>
-      <instantiatesCanonical value="http://fhir.org/guides/who/anc-cds/ActivityDefinition/ANCB8"/>
+      <instantiatesCanonical value="http://smart.who.int/anc/ActivityDefinition/ANCB8"/>
       <status value="draft"/>
       <intent value="proposal"/>
       <code>
         <coding>
-          <system value="http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes"/>
+          <system value="http://smart.who.int/anc/CodeSystem/activity-codes"/>
           <code value="ANC.B8"/>
           <display value="Physical exam"/>
         </coding>
@@ -274,17 +274,17 @@
             <display value="Collect Information"/>
           </coding>
         </type>
-        <valueCanonical value="http://fhir.org/guides/who/anc-cds/Questionnaire/ANCB8"/>
+        <valueCanonical value="http://smart.who.int/anc/Questionnaire/ANCB8"/>
       </input>
     </Task>
     <Task>
       <id value="task-anc-b9"/>
-      <instantiatesCanonical value="http://fhir.org/guides/who/anc-cds/ActivityDefinition/ANCB9"/>
+      <instantiatesCanonical value="http://smart.who.int/anc/ActivityDefinition/ANCB9"/>
       <status value="draft"/>
       <intent value="proposal"/>
       <code>
         <coding>
-          <system value="http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes"/>
+          <system value="http://smart.who.int/anc/CodeSystem/activity-codes"/>
           <code value="ANC.B9"/>
           <display value="Conduct Laboratory Test and Imaging"/>
         </coding>
@@ -307,17 +307,17 @@
             <display value="Collect Information"/>
           </coding>
         </type>
-        <valueCanonical value="http://fhir.org/guides/who/anc-cds/Questionnaire/ANCB9"/>
+        <valueCanonical value="http://smart.who.int/anc/Questionnaire/ANCB9"/>
       </input>
     </Task>
     <Task>
       <id value="task-anc-b10"/>
-      <instantiatesCanonical value="http://fhir.org/guides/who/anc-cds/ActivityDefinition/ANCB10"/>
+      <instantiatesCanonical value="http://smart.who.int/anc/ActivityDefinition/ANCB10"/>
       <status value="draft"/>
       <intent value="proposal"/>
       <code>
         <coding>
-          <system value="http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes"/>
+          <system value="http://smart.who.int/anc/CodeSystem/activity-codes"/>
           <code value="ANC.B10"/>
           <display value="Counselling and Treatment"/>
         </coding>
@@ -340,17 +340,17 @@
             <display value="Collect Information"/>
           </coding>
         </type>
-        <valueCanonical value="http://fhir.org/guides/who/anc-cds/Questionnaire/ANCB10"/>
+        <valueCanonical value="http://smart.who.int/anc/Questionnaire/ANCB10"/>
       </input>
     </Task>
     <Task>
       <id value="task-anc-b11"/>
-      <instantiatesCanonical value="http://fhir.org/guides/who/anc-cds/ActivityDefinition/ANCB11"/>
+      <instantiatesCanonical value="http://smart.who.int/anc/ActivityDefinition/ANCB11"/>
       <status value="draft"/>
       <intent value="proposal"/>
       <code>
         <coding>
-          <system value="http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes"/>
+          <system value="http://smart.who.int/anc/CodeSystem/activity-codes"/>
           <code value="ANC.B11"/>
           <display value="Referral Needed?"/>
         </coding>
@@ -373,17 +373,17 @@
             <display value="Collect Information"/>
           </coding>
         </type>
-        <valueCanonical value="http://fhir.org/guides/who/anc-cds/Questionnaire/ANCB11"/>
+        <valueCanonical value="http://smart.who.int/anc/Questionnaire/ANCB11"/>
       </input>
     </Task>
     <Task>
       <id value="task-anc-b12"/>
-      <instantiatesCanonical value="http://fhir.org/guides/who/anc-cds/ActivityDefinition/ANCB12"/>
+      <instantiatesCanonical value="http://smart.who.int/anc/ActivityDefinition/ANCB12"/>
       <status value="draft"/>
       <intent value="proposal"/>
       <code>
         <coding>
-          <system value="http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes"/>
+          <system value="http://smart.who.int/anc/CodeSystem/activity-codes"/>
           <code value="ANC.B12"/>
           <display value="Scheduling"/>
         </coding>
@@ -406,11 +406,11 @@
             <display value="Collect Information"/>
           </coding>
         </type>
-        <valueCanonical value="http://fhir.org/guides/who/anc-cds/Questionnaire/ANCB12"/>
+        <valueCanonical value="http://smart.who.int/anc/Questionnaire/ANCB12"/>
       </input>
     </Task>
   </contained>
-	<instantiatesCanonical value="http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCB"/>
+	<instantiatesCanonical value="http://smart.who.int/anc/PlanDefinition/ANCB"/>
   <status value="active"/>
   <intent value="plan"/>
   <subject>

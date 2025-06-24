@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Library/ANCDT23",
+  "url": "http://smart.who.int/anc/Library/ANCDT23",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.23"
@@ -30,47 +30,47 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRHelpers|4.0.1"
+    "resource": "http://smart.who.int/anc/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library Config",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConfig"
+    "resource": "http://smart.who.int/anc/Library/ANCConfig"
   }, {
     "type": "depends-on",
     "display": "Library Cx",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConcepts"
+    "resource": "http://smart.who.int/anc/Library/ANCConcepts"
   }, {
     "type": "depends-on",
     "display": "Library ContactData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCContactDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCContactDataElements"
   }, {
     "type": "depends-on",
     "display": "Library PatientData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCDataElements"
   }, {
     "type": "depends-on",
     "display": "Library WC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/WHOCommon"
+    "resource": "http://smart.who.int/anc/Library/WHOCommon"
   }, {
     "type": "depends-on",
     "display": "Value set Fasting plasma glucose",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de163"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de163"
   }, {
     "type": "depends-on",
     "display": "Value set 75 g oral glucose tolerance test (OGTT) - fasting glucose",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de164"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de164"
   }, {
     "type": "depends-on",
     "display": "Value set 75 g oral glucose tolerance test (OGTT) - 1 hour",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de165"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de165"
   }, {
     "type": "depends-on",
     "display": "Value set 75 g oral glucose tolerance test (OGTT) - 2 hours",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de166"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de166"
   }, {
     "type": "depends-on",
     "display": "Value set Random plasma glucose",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de167"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de167"
   } ],
   "parameter": [ {
     "name": "encounter",
@@ -148,7 +148,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de163"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b9-de163"
     } ]
   }, {
     "type": "Observation",
@@ -156,7 +156,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de164"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b9-de164"
     } ]
   }, {
     "type": "Observation",
@@ -164,7 +164,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de165"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b9-de165"
     } ]
   }, {
     "type": "Observation",
@@ -172,7 +172,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de166"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b9-de166"
     } ]
   }, {
     "type": "Observation",
@@ -180,7 +180,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de167"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b9-de167"
     } ]
   } ],
   "content": [ {

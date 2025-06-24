@@ -2,7 +2,7 @@
   "resourceType": "Immunization",
   "id": "tetanus-toxoid-tt-1-immunization-example",
   "meta": {
-    "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/tetanus-toxoid-tt-1-immunization" ]
+    "profile": [ "http://smart.who.int/anc/StructureDefinition/tetanus-toxoid-tt-1-immunization" ]
   },
   "identifier": [ {
     "use": "official",
@@ -12,7 +12,7 @@
   "status": "completed",
   "vaccineCode": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B10.DE165",
       "display": "Tetanus toxoid (TT) 1 immunization provided"
     }, {

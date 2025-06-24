@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="who.fhir.anc-cds"/>
-  <url value="http://fhir.org/guides/who/anc-cds/ImplementationGuide/who.fhir.anc-cds"/>
+  <id value="smart.who.int.anc"/>
+  <url value="http://smart.who.int/anc/ImplementationGuide/smart.who.int.anc"/>
   <version value="0.3.0"/>
   <name value="ANCCDS"/>
   <title value="WHO Antenatal Care Guideline Implementation Guide"/>
@@ -22,7 +22,7 @@
       <code value="001"/>
     </coding>
   </jurisdiction>
-  <packageId value="who.fhir.anc-cds"/>
+  <packageId value="smart.who.int.anc"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="cpg">

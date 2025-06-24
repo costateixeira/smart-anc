@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-relatedperson",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-relatedperson",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-relatedperson",
   "name": "ANCRelatedPerson",
   "title": "ANC RelatedPerson",
   "status": "draft",
@@ -26,7 +26,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-patient"
+              "http://smart.who.int/anc/StructureDefinition/anc-base-patient"
             ]
           }
         ]

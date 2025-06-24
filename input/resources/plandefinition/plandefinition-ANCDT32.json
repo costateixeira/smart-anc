@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCDT32",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCDT32",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCDT32",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.32"
@@ -26,13 +26,13 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B10.7.",
         "display": "Immunizations"
       } ]
     }
   } ],
-  "library": [ "http://fhir.org/guides/who/anc-cds/Library/ANCDT32" ],
+  "library": [ "http://smart.who.int/anc/Library/ANCDT32" ],
   "action": [ {
     "title": "ANC.DT.32 Tetanus toxoid-containing vaccination",
     "trigger": [ {

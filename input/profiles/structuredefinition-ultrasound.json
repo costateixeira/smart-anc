@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ultrasound",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/ultrasound",
+  "url": "http://smart.who.int/anc/StructureDefinition/ultrasound",
   "name": "Ultrasound",
   "title": "Ultrasound",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B6",
         "display": "Profile"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Procedure",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-procedure",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-procedure",
   "derivation": "constraint",
   "differential": {
     "element": [ {
@@ -51,7 +51,7 @@
           "valueString": "Ultrasound scan conducted"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de3"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b9-de3"
       },
       "mapping": [ {
         "identity": "ANC",

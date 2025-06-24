@@ -11,7 +11,7 @@
     "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
     "valueString": "executable"
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de234",
+  "url": "http://smart.who.int/anc/ValueSet/anc-b10-de234",
   "name": "PreventiveantihelminthictreatmentprovidedChoices",
   "title": "Preventive antihelminthic treatment provided Choices",
   "status": "draft",
@@ -20,7 +20,7 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "concept": [ {
         "code": "ANC.B10.DE234",
         "display": "Single-dose albendazole 400 mg"
@@ -36,15 +36,15 @@
   "expansion": {
     "timestamp": "2021-11-30T07:11:22-07:00",
     "contains": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B10.DE234",
       "display": "Single-dose albendazole 400 mg"
     }, {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B10.DE235",
       "display": "Single-dose mebendazole 500 mg"
     }, {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B10.DE236",
       "display": "No preventative treatment provided"
     } ]

@@ -2,7 +2,7 @@
 <Patient xmlns="http://hl7.org/fhir">
 	<id value="mom-second-contact"/>
 	<meta>
-		<profile value="http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-patient"/>
+		<profile value="http://smart.who.int/anc/StructureDefinition/anc-patient"/>
 	</meta>
 	<identifier>
 		<use value="official"/>

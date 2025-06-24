@@ -1,13 +1,13 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
     <id value="anc-activity-codes"/>
-    <url value="http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes"/>
+    <url value="http://smart.who.int/anc/CodeSystem/anc-activity-codes"/>
 		<name value="ANCActivityCodes"/>
     <title value="ANC Activity Codes"/>
     <status value="draft"/>
     <experimental value="false"/>
     <description value="Activity codes are codes to identify the types of activities that are performed as part of the delivery of antenatal care"/>
     <caseSensitive value="true"/>
-    <valueSet value="http://fhir.org/guides/who/anc-cds/ValueSet/anc-activity-codes"/>
+    <valueSet value="http://smart.who.int/anc/ValueSet/anc-activity-codes"/>
     <content value="complete"/>
     <concept>
 			<code value="ANC.A"/>

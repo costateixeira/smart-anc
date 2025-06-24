@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Library/ANCConfig",
+  "url": "http://smart.who.int/anc/Library/ANCConfig",
   "name": "ANCConfig",
   "title": "ANC Configuration",
   "status": "active",

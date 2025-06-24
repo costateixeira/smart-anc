@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-b10-de1",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b10-de1",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-b10-de1",
   "name": "Counsellingconductedoncaffeinereduction",
   "title": "Counselling conducted on caffeine reduction",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B10.1",
         "display": "Behaviour counselling"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Procedure",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-procedure",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-procedure",
   "derivation": "constraint",
   "differential": {
     "element": [ {
@@ -51,7 +51,7 @@
           "valueString": "Counselling on Caffeine Reduction"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de1"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de1"
       },
       "mapping": [ {
         "identity": "ANC",

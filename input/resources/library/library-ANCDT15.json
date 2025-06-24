@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Library/ANCDT15",
+  "url": "http://smart.who.int/anc/Library/ANCDT15",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.15"
@@ -30,123 +30,123 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRHelpers|4.0.1"
+    "resource": "http://smart.who.int/anc/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library Config",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConfig"
+    "resource": "http://smart.who.int/anc/Library/ANCConfig"
   }, {
     "type": "depends-on",
     "display": "Library Cx",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConcepts"
+    "resource": "http://smart.who.int/anc/Library/ANCConcepts"
   }, {
     "type": "depends-on",
     "display": "Library PatientData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCDataElements"
   }, {
     "type": "depends-on",
     "display": "Library ContactData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCContactDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCContactDataElements"
   }, {
     "type": "depends-on",
     "display": "Library WC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/WHOCommon"
+    "resource": "http://smart.who.int/anc/Library/WHOCommon"
   }, {
     "type": "depends-on",
     "display": "Value set Daily caffeine intake",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de139"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de139"
   }, {
     "type": "depends-on",
     "display": "Value set Daily caffeine intake - More than 2 cups of coffee Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de140"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de140"
   }, {
     "type": "depends-on",
     "display": "Value set Daily caffeine intake - More than 4 cups of tea Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de141"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de141"
   }, {
     "type": "depends-on",
     "display": "Value set Daily caffeine intake - More than 12 bars of chocolate Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de142"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de142"
   }, {
     "type": "depends-on",
     "display": "Value set Daily caffeine intake - More than one can of soda or energy drink Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de143"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de143"
   }, {
     "type": "depends-on",
     "display": "Value set Daily caffeine intake - None of the above daily caffeine intake Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de144"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de144"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent behaviours",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-ded9"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-ded9"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent behaviours - High caffeine intake Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de10"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de10"
   }, {
     "type": "depends-on",
     "display": "Value set Tobacco use",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de153"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de153"
   }, {
     "type": "depends-on",
     "display": "Value set Recently quit tobacco products",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de154"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de154"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent behaviours - Recently quit tobacco products Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de12"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de12"
   }, {
     "type": "depends-on",
     "display": "Value set Exposure to second-hand smoke",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de155"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de155"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent behaviours - Exposure to second-hand smoke Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de13"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de13"
   }, {
     "type": "depends-on",
     "display": "Value set Contraceptive use of male condoms",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de160"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de160"
   }, {
     "type": "depends-on",
     "display": "Value set Contraceptive use of female condoms",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de161"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de161"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent behaviours - No condom use during sex Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de14"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de14"
   }, {
     "type": "depends-on",
     "display": "Value set Current alcohol and/or other substance use",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de146"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de146"
   }, {
     "type": "depends-on",
     "display": "Value set Current alcohol and/or other substance use - Alcohol Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de148"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de148"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent behaviours - Alcohol use Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de15"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de15"
   }, {
     "type": "depends-on",
     "display": "Value set Current alcohol and/or other substance use - Marijuana Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de151"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de151"
   }, {
     "type": "depends-on",
     "display": "Value set Current alcohol and/or other substance use - Cocaine Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de149"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de149"
   }, {
     "type": "depends-on",
     "display": "Value set Current alcohol and/or other substance use - Injectable drugs Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de150"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de150"
   }, {
     "type": "depends-on",
     "display": "Value set Current alcohol and/or other substance use - Other (specify) Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de152"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de152"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent behaviours - Substance use Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de16"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de16"
   } ],
   "parameter": [ {
     "name": "encounter",
@@ -200,7 +200,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference", "value" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de139"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de139"
     } ]
   }, {
     "type": "Observation",
@@ -208,7 +208,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference", "value" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de146"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de146"
     } ]
   }, {
     "type": "Observation",
@@ -216,7 +216,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference", "value" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-ded9"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b7-ded9"
     } ]
   }, {
     "type": "Observation",
@@ -224,7 +224,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference", "value" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de153"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de153"
     } ]
   }, {
     "type": "Observation",
@@ -232,7 +232,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference", "value" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de154"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de154"
     } ]
   }, {
     "type": "Observation",
@@ -240,7 +240,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference", "value" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de155"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de155"
     } ]
   }, {
     "type": "Observation",
@@ -248,7 +248,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference", "value" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de160"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de160"
     } ]
   }, {
     "type": "Observation",
@@ -256,7 +256,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference", "value" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de161"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de161"
     } ]
   } ],
   "content": [ {

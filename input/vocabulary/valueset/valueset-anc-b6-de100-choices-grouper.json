@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "anc-b6-de100-choices-grouper",
-  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de100-choices-grouper",
+  "url": "http://smart.who.int/anc/ValueSet/anc-b6-de100-choices-grouper",
   "name": "TetanustoxoidcontainingvaccineTTCVimmunizationhistoryChoicesGrouper",
   "title": "Tetanus toxoid-containing vaccine (TTCV) immunization history Choices Grouper",
   "status": "draft",
@@ -11,31 +11,31 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "valueSet": [ "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de101" ]
+      "valueSet": [ "http://smart.who.int/anc/ValueSet/anc-b6-de101" ]
     }, {
-      "valueSet": [ "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de102" ]
+      "valueSet": [ "http://smart.who.int/anc/ValueSet/anc-b6-de102" ]
     }, {
-      "valueSet": [ "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de103" ]
+      "valueSet": [ "http://smart.who.int/anc/ValueSet/anc-b6-de103" ]
     }, {
-      "valueSet": [ "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de104" ]
+      "valueSet": [ "http://smart.who.int/anc/ValueSet/anc-b6-de104" ]
     } ]
   },
   "expansion": {
     "timestamp": "2021-09-07T20:15:19-06:00",
     "contains": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B6.DE101",
       "display": "Fully immunized"
     }, {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B6.DE102",
       "display": "Under-immunized"
     }, {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B6.DE103",
       "display": "No doses"
     }, {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B6.DE104",
       "display": "Unknown"
     } ]

@@ -11,7 +11,7 @@
     "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
     "valueString": "executable"
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de24",
+  "url": "http://smart.who.int/anc/ValueSet/anc-b8-de24",
   "name": "ReasonbloodpressurecannotbetakenChoices",
   "title": "Reason blood pressure cannot be taken Choices",
   "status": "draft",
@@ -20,7 +20,7 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "concept": [ {
         "code": "ANC.B8.DE24",
         "display": "BP cuff (sphygmomanometer) not available"
@@ -36,15 +36,15 @@
   "expansion": {
     "timestamp": "2021-11-30T07:11:23-07:00",
     "contains": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B8.DE24",
       "display": "BP cuff (sphygmomanometer) not available"
     }, {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B8.DE25",
       "display": "BP cuff (sphygmomanometer) is broken"
     }, {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B8.DE26",
       "display": "Other (specify)"
     } ]

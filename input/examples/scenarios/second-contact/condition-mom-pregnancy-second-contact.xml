@@ -2,7 +2,7 @@
 <Condition xmlns="http://hl7.org/fhir">
   <id value="mom-pregnancy-second-contact"/>
   <meta>
-    <profile value="http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-condition"/>
+    <profile value="http://smart.who.int/anc/StructureDefinition/anc-condition"/>
     <profile value="http://fhir.org/guides/who/core/StructureDefinition/who-condition"/>
   </meta>
 

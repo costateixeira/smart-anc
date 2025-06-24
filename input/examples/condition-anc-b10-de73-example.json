@@ -2,7 +2,7 @@
   "resourceType": "Condition",
   "id": "anc-b10-de73-example",
   "meta": {
-    "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b10-de73" ]
+    "profile": [ "http://smart.who.int/anc/StructureDefinition/anc-b10-de73" ]
   },
   "identifier": [ {
     "use": "official",
@@ -23,7 +23,7 @@
   },
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B10.DE73",
       "display": "Hypertension"
     }, {

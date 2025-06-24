@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "contactnumber",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/contactnumber",
+  "url": "http://smart.who.int/anc/StructureDefinition/contactnumber",
   "name": "contactNumber",
   "title": "ANC contact number",
   "status": "draft",
@@ -33,7 +33,7 @@
     }, {
       "id": "Extension.url",
       "path": "Extension.url",
-      "fixedUri": "http://fhir.org/guides/who/anc-cds/StructureDefinition/contactnumber"
+      "fixedUri": "http://smart.who.int/anc/StructureDefinition/contactnumber"
     }, {
       "id": "Extension.value[x]",
       "path": "Extension.value[x]",

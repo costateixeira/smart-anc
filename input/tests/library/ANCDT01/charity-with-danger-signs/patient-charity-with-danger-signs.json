@@ -2,22 +2,22 @@
   "resourceType": "Patient",
   "id": "charity-with-danger-signs",
   "meta": {
-    "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-patient" ]
+    "profile": [ "http://smart.who.int/anc/StructureDefinition/anc-patient" ]
   },
   "extension": [ {
-    "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/educationlevel",
+    "url": "http://smart.who.int/anc/StructureDefinition/educationlevel",
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
         "code": "ANC.B6.DE4",
         "display": "Primary school"
       } ]
     }
   }, {
-    "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/occupation",
+    "url": "http://smart.who.int/anc/StructureDefinition/occupation",
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
         "code": "ANC.B6.DE12",
         "display": "Informal employment (other)"
       } ]

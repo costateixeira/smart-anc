@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Library/ANCDT17",
+  "url": "http://smart.who.int/anc/Library/ANCDT17",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.17"
@@ -30,87 +30,87 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRHelpers|4.0.1"
+    "resource": "http://smart.who.int/anc/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library Config",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConfig"
+    "resource": "http://smart.who.int/anc/Library/ANCConfig"
   }, {
     "type": "depends-on",
     "display": "Library Cx",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConcepts"
+    "resource": "http://smart.who.int/anc/Library/ANCConcepts"
   }, {
     "type": "depends-on",
     "display": "Library PatientData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCDataElements"
   }, {
     "type": "depends-on",
     "display": "Library ContactData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCContactDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCContactDataElements"
   }, {
     "type": "depends-on",
     "display": "Library WC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/WHOCommon"
+    "resource": "http://smart.who.int/anc/Library/WHOCommon"
   }, {
     "type": "depends-on",
     "display": "Value set Systolic blood pressure",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de17"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de17"
   }, {
     "type": "depends-on",
     "display": "Value set Repeat systolic blood pressure",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de20"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de20"
   }, {
     "type": "depends-on",
     "display": "Value set Symptoms of severe pre-eclampsia",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de27"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de27"
   }, {
     "type": "depends-on",
     "display": "Value set Symptoms of severe pre-eclampsia Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de29"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de29"
   }, {
     "type": "depends-on",
     "display": "Value set Diastolic blood pressure",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de19"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de19"
   }, {
     "type": "depends-on",
     "display": "Value set Repeat diastolic blood pressure",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de21"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de21"
   }, {
     "type": "depends-on",
     "display": "Value set Symptoms of severe pre-eclampsia - No symptoms Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de28"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de28"
   }, {
     "type": "depends-on",
     "display": "Value set Urine dipstick result - protein",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de144"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de144"
   }, {
     "type": "depends-on",
     "display": "Value set Urine dipstick result - protein - 2 plus Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de147"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de147"
   }, {
     "type": "depends-on",
     "display": "Value set Urine dipstick result - protein - 3 plus Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de148"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de148"
   }, {
     "type": "depends-on",
     "display": "Value set Urine dipstick result - protein - 4 plus Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de149"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de149"
   }, {
     "type": "depends-on",
     "display": "Value set Urine dipstick result - protein - 1 plus Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de146"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de146"
   }, {
     "type": "depends-on",
     "display": "Value set Urine dipstick result - protein - None Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de145"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de145"
   }, {
     "type": "depends-on",
     "display": "Value set Existing chronic health conditions",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de83"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de83"
   }, {
     "type": "depends-on",
     "display": "Value set Existing chronic health conditions - Hypertension Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de96"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de96"
   } ],
   "parameter": [ {
     "name": "encounter",
@@ -158,7 +158,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference", "value" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de27"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b8-de27"
     } ]
   }, {
     "type": "Observation",
@@ -166,7 +166,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference", "value" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de83"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de83"
     } ]
   }, {
     "type": "Observation",
@@ -174,7 +174,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de17"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b8-de17"
     } ]
   }, {
     "type": "Observation",
@@ -182,7 +182,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de20"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b8-de20"
     } ]
   }, {
     "type": "Observation",
@@ -190,7 +190,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de19"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b8-de19"
     } ]
   }, {
     "type": "Observation",
@@ -198,7 +198,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de21"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b8-de21"
     } ]
   }, {
     "type": "Observation",
@@ -206,7 +206,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de144"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b9-de144"
     } ]
   } ],
   "content": [ {

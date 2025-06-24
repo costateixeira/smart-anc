@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCDT11",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCDT11",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCDT11",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.11"
@@ -26,13 +26,13 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B9.",
         "display": "Conduct laboratory tests and imaging"
       } ]
     }
   } ],
-  "library": [ "http://fhir.org/guides/who/anc-cds/Library/ANCDT11" ],
+  "library": [ "http://smart.who.int/anc/Library/ANCDT11" ],
   "action": [ {
     "title": "ANC.DT.11 Syphilis testing",
     "trigger": [ {

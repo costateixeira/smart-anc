@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-b10-de223",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b10-de223",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-b10-de223",
   "name": "Referralsmadeaspartoffirstlinesupportandcare",
   "title": "Referrals made as part of first-line support and care",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B10.8",
         "display": "Intimate partner violence first-line support and care"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "ServiceRequest",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-servicerequest",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-servicerequest",
   "derivation": "constraint",
   "differential": {
     "element": [ {
@@ -51,7 +51,7 @@
           "valueString": "Referrals made as part of first-line support and care"
         } ],
         "strength": "extensible",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de223"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de223"
       },
       "mapping": [ {
         "identity": "ANC",

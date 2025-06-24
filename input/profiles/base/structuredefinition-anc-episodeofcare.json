@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-episodeofcare",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-episodeofcare",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-episodeofcare",
   "name": "ANCEpisodeOfCare",
   "title": "ANC EpisodeOfCare",
   "status": "draft",
@@ -30,7 +30,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-condition"
+              "http://smart.who.int/anc/StructureDefinition/anc-condition"
             ]
           }
         ]
@@ -42,7 +42,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-patient"
+              "http://smart.who.int/anc/StructureDefinition/anc-base-patient"
             ]
           }
         ]
@@ -54,7 +54,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-organization"
+              "http://smart.who.int/anc/StructureDefinition/anc-organization"
             ]
           }
         ]
@@ -66,8 +66,8 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-practitioner",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-practitionerrole"
+              "http://smart.who.int/anc/StructureDefinition/anc-practitioner",
+              "http://smart.who.int/anc/StructureDefinition/anc-practitionerrole"
             ]
           }
         ]
@@ -79,7 +79,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-careteam"
+              "http://smart.who.int/anc/StructureDefinition/anc-careteam"
             ]
           }
         ]

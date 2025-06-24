@@ -4,7 +4,7 @@
   "meta": {
     "profile": [
       "http://fhir.org/guides/who/core/StructureDefinition/who-measurereport",
-      "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-measurereport"
+      "http://smart.who.int/anc/StructureDefinition/anc-measurereport"
     ]
   },
   "extension": [
@@ -17,7 +17,7 @@
   ],
   "status": "complete",
   "type": "summary",
-  "measure": "http://fhir.org/guides/who/anc-cds/Measure/anc-ind-01",
+  "measure": "http://smart.who.int/anc/Measure/anc-ind-01",
   "date": "2021-08-02",
   "reporter": {
     "reference": "Organization/anc-organization-example"

@@ -5,7 +5,7 @@
   "status": "draft",
   "experimental": "false",
   "start": "Patient",
-  "profile": "http://http://fhir.org/guides/who/anc-cds/ancpatient",
+  "profile": "http://http://smart.who.int/anc/ancpatient",
   "link": [
     {
       "min": "0",
@@ -15,7 +15,7 @@
         {
           "type": "Encounter",
           "params": "patient={ref}",
-          "profile": "http://fhir.org/guides/who/anc-cds/ancencounter"
+          "profile": "http://smart.who.int/anc/ancencounter"
         }
       ]
     },
@@ -27,7 +27,7 @@
         {
           "type": "Observation",
           "params": "patient={ref}",
-          "profile": "http://fhir.org/guides/who/anc-cds/StructureDefinition/lmpobservation"
+          "profile": "http://smart.who.int/anc/StructureDefinition/lmpobservation"
         }
       ]
     }

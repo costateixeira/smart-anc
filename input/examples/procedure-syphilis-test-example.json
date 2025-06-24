@@ -2,7 +2,7 @@
   "resourceType": "Procedure",
   "id": "syphilis-test-example",
   "meta": {
-    "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/syphilis-test" ]
+    "profile": [ "http://smart.who.int/anc/StructureDefinition/syphilis-test" ]
   },
   "identifier": [ {
     "use": "official",
@@ -12,7 +12,7 @@
   "status": "completed",
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B9.DE96",
       "display": "Syphilis test conducted"
     }, {

@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCDT22",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCDT22",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCDT22",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.22"
@@ -26,13 +26,13 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B10.4",
         "display": "Diagnosis and treatment"
       } ]
     }
   } ],
-  "library": [ "http://fhir.org/guides/who/anc-cds/Library/ANCDT22" ],
+  "library": [ "http://smart.who.int/anc/Library/ANCDT22" ],
   "action": [ {
     "title": "ANC.DT.22 Asymptomatic bacteriuria (ASB) diagnosis",
     "trigger": [ {

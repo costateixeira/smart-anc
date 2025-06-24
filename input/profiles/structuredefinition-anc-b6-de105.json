@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-b6-de105",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b6-de105",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-b6-de105",
   "name": "Fluimmunizationhistory",
   "title": "Flu immunization history",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B6",
         "display": "Profile"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-observation",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-observation",
   "derivation": "constraint",
   "differential": {
     "element": [ {
@@ -50,7 +50,7 @@
           "valueString": "Flu immunization history"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de105"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de105"
       },
       "mapping": [ {
         "identity": "ANC",
@@ -72,7 +72,7 @@
           "valueString": "Flu immunization history Choices Grouper"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de105-choices-grouper"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de105-choices-grouper"
       },
       "mapping": [ {
         "identity": "ANC",

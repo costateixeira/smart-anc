@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "malaria-prophylaxis-iptp-sp-dose-1",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/malaria-prophylaxis-iptp-sp-dose-1",
+  "url": "http://smart.who.int/anc/StructureDefinition/malaria-prophylaxis-iptp-sp-dose-1",
   "name": "MalariaProphylaxisIPTpSPDose1",
   "title": "Malaria Prophylaxis (IPTp-SP) Dose 1",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B10.9",
         "display": "Deworming & malaria prophylaxis"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Immunization",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-immunization",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-immunization",
   "derivation": "constraint",
   "differential": {
     "element": [ {
@@ -50,7 +50,7 @@
           "valueString": "IPTp-SP dose 1 provided"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de245"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de245"
       },
       "mapping": [ {
         "identity": "ANC",

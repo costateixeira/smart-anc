@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "vitamin-a-supplement",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/vitamin-a-supplement",
+  "url": "http://smart.who.int/anc/StructureDefinition/vitamin-a-supplement",
   "name": "VitaminASupplement",
   "title": "Vitamin A Supplement",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B10.5",
         "display": "Nutrition supplementation"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "MedicationRequest",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-medicationrequest",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-medicationrequest",
   "derivation": "constraint",
   "differential": {
     "element": [ {
@@ -59,7 +59,7 @@
           "valueString": "Type of vitamin A supplement dosage provided Choices"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de102"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de102"
       },
       "mapping": [ {
         "identity": "ANC",

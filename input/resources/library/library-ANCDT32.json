@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Library/ANCDT32",
+  "url": "http://smart.who.int/anc/Library/ANCDT32",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.32"
@@ -30,63 +30,63 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRHelpers|4.0.1"
+    "resource": "http://smart.who.int/anc/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library Config",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConfig"
+    "resource": "http://smart.who.int/anc/Library/ANCConfig"
   }, {
     "type": "depends-on",
     "display": "Library Cx",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConcepts"
+    "resource": "http://smart.who.int/anc/Library/ANCConcepts"
   }, {
     "type": "depends-on",
     "display": "Library PatientData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCDataElements"
   }, {
     "type": "depends-on",
     "display": "Library ContactData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCContactDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCContactDataElements"
   }, {
     "type": "depends-on",
     "display": "Library WC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/WHOCommon"
+    "resource": "http://smart.who.int/anc/Library/WHOCommon"
   }, {
     "type": "depends-on",
     "display": "Value set Tetanus toxoid-containing vaccine (TTCV) immunization history",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de100"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de100"
   }, {
     "type": "depends-on",
     "display": "Value set Tetanus toxoid-containing vaccine (TTCV) immunization history - Under Immunized Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de102"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de102"
   }, {
     "type": "depends-on",
     "display": "Value set Tetanus toxoid-containing vaccine (TTCV) immunization history - No Doses Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de103"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de103"
   }, {
     "type": "depends-on",
     "display": "Value set Tetanus toxoid-containing vaccine (TTCV) immunization history - Unknown Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de104"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de104"
   }, {
     "type": "depends-on",
     "display": "Value set Tetanus toxoid (TT) 5 immunization provided",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de173"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b10-de173"
   }, {
     "type": "depends-on",
     "display": "Value set Tetanus toxoid (TT) 4 immunization provided",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de171"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b10-de171"
   }, {
     "type": "depends-on",
     "display": "Value set Tetanus toxoid (TT) 3 immunization provided",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de169"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b10-de169"
   }, {
     "type": "depends-on",
     "display": "Value set Tetanus toxoid (TT) 2 immunization provided",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de167"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b10-de167"
   }, {
     "type": "depends-on",
     "display": "Value set Tetanus toxoid (TT) 1 immunization provided",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de165"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b10-de165"
   } ],
   "parameter": [ {
     "name": "encounter",
@@ -122,7 +122,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de100"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de100"
     } ]
   }, {
     "type": "Immunization",
@@ -130,7 +130,7 @@
     "mustSupport": [ "vaccineCode", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "vaccineCode",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de173"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de173"
     } ]
   }, {
     "type": "Immunization",
@@ -138,7 +138,7 @@
     "mustSupport": [ "vaccineCode", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "vaccineCode",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de171"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de171"
     } ]
   }, {
     "type": "Immunization",
@@ -146,7 +146,7 @@
     "mustSupport": [ "vaccineCode", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "vaccineCode",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de169"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de169"
     } ]
   }, {
     "type": "Immunization",
@@ -154,7 +154,7 @@
     "mustSupport": [ "vaccineCode", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "vaccineCode",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de167"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de167"
     } ]
   }, {
     "type": "Immunization",
@@ -162,7 +162,7 @@
     "mustSupport": [ "vaccineCode", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "vaccineCode",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de165"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de165"
     } ]
   } ],
   "content": [ {

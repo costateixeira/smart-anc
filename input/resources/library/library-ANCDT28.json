@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Library/ANCDT28",
+  "url": "http://smart.who.int/anc/Library/ANCDT28",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.28"
@@ -30,75 +30,75 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRHelpers|4.0.1"
+    "resource": "http://smart.who.int/anc/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library Config",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConfig"
+    "resource": "http://smart.who.int/anc/Library/ANCConfig"
   }, {
     "type": "depends-on",
     "display": "Library Cx",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConcepts"
+    "resource": "http://smart.who.int/anc/Library/ANCConcepts"
   }, {
     "type": "depends-on",
     "display": "Library PatientData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCDataElements"
   }, {
     "type": "depends-on",
     "display": "Library ContactData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCContactDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCContactDataElements"
   }, {
     "type": "depends-on",
     "display": "Library WC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/WHOCommon"
+    "resource": "http://smart.who.int/anc/Library/WHOCommon"
   }, {
     "type": "depends-on",
     "display": "Value set Gestational diabetes mellitus (GDM) diagnosis",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de169"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de169"
   }, {
     "type": "depends-on",
     "display": "Value set Gestational diabetes mellitus (GDM) diagnosis - Negative Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de171"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de171"
   }, {
     "type": "depends-on",
     "display": "Value set Diabetes mellitus (DM) during pregnancy diagnosis",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de172"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de172"
   }, {
     "type": "depends-on",
     "display": "Value set BMI",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de4"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b8-de4"
   }, {
     "type": "depends-on",
     "display": "Value set Past pregnancy complications",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de34"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de34"
   }, {
     "type": "depends-on",
     "display": "Value set Past pregnancy complications - Gestational diabetes mellitus Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de43"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de43"
   }, {
     "type": "depends-on",
     "display": "Value set Past pregnancy complications - Macrosomia Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de45"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de45"
   }, {
     "type": "depends-on",
     "display": "Value set Urine dipstick result - glucose",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de150"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de150"
   }, {
     "type": "depends-on",
     "display": "Value set Urine dipstick result - glucose - 2 plus Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de153"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de153"
   }, {
     "type": "depends-on",
     "display": "Value set Urine dipstick result - glucose - 3 plus Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de154"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de154"
   }, {
     "type": "depends-on",
     "display": "Value set Urine dipstick result - glucose - 4 plus Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de155"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de155"
   }, {
     "type": "depends-on",
     "display": "Value set Urine dipstick result - glucose - 1 plus Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de152"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de152"
   } ],
   "parameter": [ {
     "name": "encounter",
@@ -128,7 +128,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference", "value" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de34"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de34"
     } ]
   }, {
     "type": "Observation",
@@ -136,7 +136,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de169"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b9-de169"
     } ]
   }, {
     "type": "Observation",
@@ -144,7 +144,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de172"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b9-de172"
     } ]
   }, {
     "type": "Observation",
@@ -152,7 +152,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b8-de4"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b8-de4"
     } ]
   }, {
     "type": "Observation",
@@ -160,7 +160,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference", "value" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de150"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b9-de150"
     } ]
   } ],
   "content": [ {

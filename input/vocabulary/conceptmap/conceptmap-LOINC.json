@@ -1,14 +1,14 @@
 {
   "resourceType": "ConceptMap",
   "id": "LOINC",
-  "url": "http://fhir.org/guides/who/anc-cds/ConceptMap/LOINC",
+  "url": "http://smart.who.int/anc/ConceptMap/LOINC",
   "name": "LOINC",
   "title": "LOINC",
   "status": "draft",
   "experimental": false,
   "description": "Concept mapping from content extended codes to LOINC",
   "group": [ {
-    "source": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+    "source": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
     "target": "http://loinc.org",
     "element": [ {
       "code": "ANC.B4.DE1",

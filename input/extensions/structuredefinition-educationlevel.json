@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "educationlevel",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/educationlevel",
+  "url": "http://smart.who.int/anc/StructureDefinition/educationlevel",
   "name": "educationLevel",
   "title": "Highest level of education achieved",
   "status": "draft",
@@ -34,7 +34,7 @@
     }, {
       "id": "Extension.url",
       "path": "Extension.url",
-      "fixedUri": "http://fhir.org/guides/who/anc-cds/StructureDefinition/educationlevel"
+      "fixedUri": "http://smart.who.int/anc/StructureDefinition/educationlevel"
     }, {
       "id": "Extension.value[x]",
       "path": "Extension.value[x]",
@@ -50,7 +50,7 @@
           "valueString": "Highest level of education achieved Choices"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de2"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de2"
       }
     } ]
   }

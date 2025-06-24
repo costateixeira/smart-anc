@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-procedure",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-procedure",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-procedure",
   "name": "ANCProcedure",
   "title": "ANC Procedure",
   "status": "draft",
@@ -26,7 +26,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-patient"
+              "http://smart.who.int/anc/StructureDefinition/anc-base-patient"
             ]
           }
         ]
@@ -38,7 +38,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-encounter"
+              "http://smart.who.int/anc/StructureDefinition/anc-base-encounter"
             ]
           }
         ]
@@ -54,10 +54,10 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-practitioner",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-practitionerrole",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-patient",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-relatedperson"
+              "http://smart.who.int/anc/StructureDefinition/anc-practitioner",
+              "http://smart.who.int/anc/StructureDefinition/anc-practitionerrole",
+              "http://smart.who.int/anc/StructureDefinition/anc-base-patient",
+              "http://smart.who.int/anc/StructureDefinition/anc-relatedperson"
             ]
           }
         ]
@@ -69,7 +69,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-location"
+              "http://smart.who.int/anc/StructureDefinition/anc-location"
             ]
           }
         ]

@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCDT35",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCDT35",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCDT35",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.35"
@@ -26,13 +26,13 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B10.",
         "display": "Counselling, in-facility management & treatment "
       } ]
     }
   } ],
-  "library": [ "http://fhir.org/guides/who/anc-cds/Library/ANCDT35" ],
+  "library": [ "http://smart.who.int/anc/Library/ANCDT35" ],
   "action": [ {
     "title": "ANC.DT.35 Family planning counselling",
     "trigger": [ {

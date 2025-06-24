@@ -4,7 +4,7 @@
   <participant>
     <role>
 			<coding>
-				<system value="http://fhir.org/guides/who/anc-cds/CodeSystem/anc-persona"/>
+				<system value="http://smart.who.int/anc/CodeSystem/anc-persona"/>
 				<code value="MV"/>
 				<display value="Midwife"/>
 			</coding>

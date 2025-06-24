@@ -15,9 +15,9 @@
     "valueCode" : "structured"
   }, {
     "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-collectWith",
-    "valueCanonical": "http://fhir.org/guides/who/anc-cds/Questionnaire/ANCB9"
+    "valueCanonical": "http://smart.who.int/anc/Questionnaire/ANCB9"
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/ActivityDefinition/ANCB9",
+  "url": "http://smart.who.int/anc/ActivityDefinition/ANCB9",
   "identifier": [ {
     "use": "official",
     "value": "ANC.B9"
@@ -36,7 +36,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B9",
         "display": "Lab tests & imaging"
       } ]

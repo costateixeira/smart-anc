@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCDT02",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCDT02",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCDT02",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.02"
@@ -26,13 +26,13 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "Client",
         "display": "is an adolescent (age >19)"
       } ]
     }
   } ],
-  "library": [ "http://fhir.org/guides/who/anc-cds/Library/ANCDT02" ],
+  "library": [ "http://smart.who.int/anc/Library/ANCDT02" ],
   "action": [ {
     "title": "ANC.DT.02 Adolescent HEADSS asessement",
     "trigger": [ {

@@ -15,9 +15,9 @@
     "valueCode" : "structured"
   }, {
     "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-collectWith",
-    "valueCanonical": "http://fhir.org/guides/who/anc-cds/Questionnaire/ANCB6"
+    "valueCanonical": "http://smart.who.int/anc/Questionnaire/ANCB6"
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/ActivityDefinition/ANCB6",
+  "url": "http://smart.who.int/anc/ActivityDefinition/ANCB6",
   "identifier": [ {
     "use": "official",
     "value": "ANC.B6"
@@ -36,7 +36,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B6",
         "display": "Profile"
       } ]

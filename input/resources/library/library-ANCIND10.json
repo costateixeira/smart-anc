@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Library/ANCIND10",
+  "url": "http://smart.who.int/anc/Library/ANCIND10",
   "name": "ANCIND10",
   "title": "ANC.IND.10 Percentage of pregnant women with an ultrasound scan before 24 weeks",
   "status": "active",
@@ -26,43 +26,43 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRHelpers|4.0.1"
+    "resource": "http://smart.who.int/anc/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library FC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRCommon"
+    "resource": "http://smart.who.int/anc/Library/FHIRCommon"
   }, {
     "type": "depends-on",
     "display": "Library AC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCCommon"
+    "resource": "http://smart.who.int/anc/Library/ANCCommon"
   }, {
     "type": "depends-on",
     "display": "Library BCx",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCBaseConcepts"
+    "resource": "http://smart.who.int/anc/Library/ANCBaseConcepts"
   }, {
     "type": "depends-on",
     "display": "Library Cx",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConcepts"
+    "resource": "http://smart.who.int/anc/Library/ANCConcepts"
   }, {
     "type": "depends-on",
     "display": "Library BaseData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCBaseDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCBaseDataElements"
   }, {
     "type": "depends-on",
     "display": "Library PatientData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCDataElements"
   }, {
     "type": "depends-on",
     "display": "Library ContactData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCContactDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCContactDataElements"
   }, {
     "type": "depends-on",
     "display": "Library Stratifiers",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCStratifiers"
+    "resource": "http://smart.who.int/anc/Library/ANCStratifiers"
   }, {
     "type": "depends-on",
     "display": "Library WC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/WHOCommon"
+    "resource": "http://smart.who.int/anc/Library/WHOCommon"
   }, {
     "type": "depends-on",
     "display": "Code system ISO-8601-Derived Periods",
@@ -70,15 +70,15 @@
   }, {
     "type": "depends-on",
     "display": "Value set Antenatal care case",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/antenatal-care-case"
+    "resource": "http://smart.who.int/anc/ValueSet/antenatal-care-case"
   }, {
     "type": "depends-on",
     "display": "Value set Ultrasound scan conducted",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de3"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de3"
   }, {
     "type": "depends-on",
     "display": "Value set Gestational age",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de17"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de17"
   } ],
   "parameter": [ {
     "name": "Measurement Period",
@@ -133,7 +133,7 @@
     "mustSupport": [ "type" ],
     "codeFilter": [ {
       "path": "type",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/antenatal-care-case"
+      "valueSet": "http://smart.who.int/anc/ValueSet/antenatal-care-case"
     } ]
   }, {
     "type": "Procedure",
@@ -141,7 +141,7 @@
     "mustSupport": [ "code", "status", "performed" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de3"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b9-de3"
     } ]
   }, {
     "type": "Observation",
@@ -149,7 +149,7 @@
     "mustSupport": [ "code", "status", "effective", "value" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de17"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de17"
     } ]
   } ],
   "content": [ {

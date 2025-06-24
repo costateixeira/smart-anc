@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-patient",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-patient",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-patient",
   "name": "ANCPatient",
   "title": "ANC Patient",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.A4",
         "display": "Gather client details"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Patient",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-patient",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-base-patient",
   "derivation": "constraint",
   "differential": {
     "element": [ {
@@ -46,7 +46,7 @@
       "max": "1",
       "type": [ {
         "code": "Extension",
-        "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/reminder" ]
+        "profile": [ "http://smart.who.int/anc/StructureDefinition/reminder" ]
       } ],
       "mapping": [ {
         "identity": "ANC",
@@ -62,7 +62,7 @@
       "max": "1",
       "type": [ {
         "code": "Extension",
-        "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/educationlevel" ]
+        "profile": [ "http://smart.who.int/anc/StructureDefinition/educationlevel" ]
       } ],
       "mapping": [ {
         "identity": "ANC",
@@ -78,7 +78,7 @@
       "max": "*",
       "type": [ {
         "code": "Extension",
-        "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/occupation" ]
+        "profile": [ "http://smart.who.int/anc/StructureDefinition/occupation" ]
       } ],
       "mapping": [ {
         "identity": "ANC",

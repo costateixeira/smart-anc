@@ -9,7 +9,7 @@ include ANCContactDataElements called ContactData
 
 codesystem "ISO-8601-Derived Periods": 'http://ohie.org/CodeSystem/iso-8601-derived-periods' // { 'P0Y--P1Y', 'P1Y--P5Y', ... }
 
-valueset "Qualifying Reason for closing ANC record Choices": 'http://fhir.org/guides/who/anc-cds/ValueSet/qualifying-reason-for-closing-anc-record-choices'
+valueset "Qualifying Reason for closing ANC record Choices": 'http://smart.who.int/anc/ValueSet/qualifying-reason-for-closing-anc-record-choices'
 
 // Age Groups
 code "P10Y--P14Y": 'P10Y--P14Y' from "ISO-8601-Derived Periods" display '10-14 years'
@@ -37,7 +37,7 @@ By Patient Education Level (none, don't know, primary, secondary, higher)
 */
 define "By Education Level":
   Patient.extension E
-    where E.url = 'http://fhir.org/guides/who/anc-cds/StructureDefinition/educationlevel'
+    where E.url = 'http://smart.who.int/anc/StructureDefinition/educationlevel'
     return E.value as CodeableConcept
 
 /*

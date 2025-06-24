@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Library/WHOCommon",
+  "url": "http://smart.who.int/anc/Library/WHOCommon",
   "name": "WHOCommon",
   "title": "WHO Common",
   "status": "active",
@@ -26,11 +26,11 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRHelpers|4.0.1"
+    "resource": "http://smart.who.int/anc/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library FC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRCommon"
+    "resource": "http://smart.who.int/anc/Library/FHIRCommon"
   } ],
   "parameter": [ {
     "name": "Patient",

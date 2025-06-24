@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "anc-b9-de169-choices-grouper",
-  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de169-choices-grouper",
+  "url": "http://smart.who.int/anc/ValueSet/anc-b9-de169-choices-grouper",
   "name": "GestationaldiabetesmellitusGDMdiagnosisChoicesGrouper",
   "title": "Gestational diabetes mellitus (GDM) diagnosis Choices Grouper",
   "status": "draft",
@@ -11,19 +11,19 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "valueSet": [ "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de170" ]
+      "valueSet": [ "http://smart.who.int/anc/ValueSet/anc-b9-de170" ]
     }, {
-      "valueSet": [ "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de171" ]
+      "valueSet": [ "http://smart.who.int/anc/ValueSet/anc-b9-de171" ]
     } ]
   },
   "expansion": {
     "timestamp": "2021-09-07T20:15:19-06:00",
     "contains": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B9.DE170",
       "display": "GDM positive"
     }, {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B9.DE171",
       "display": "GDM negative"
     } ]

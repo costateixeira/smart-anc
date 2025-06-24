@@ -33,7 +33,7 @@
             "code": "uri"
           }
         ],
-        "fixedUri": "http://fhir.org/guides/who/anc-cds/StructureDefinition/who-doNotPerformReason"
+        "fixedUri": "http://smart.who.int/anc/StructureDefinition/who-doNotPerformReason"
       },
       {
         "id": "Extension.value[x]",

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-organization",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-organization",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-organization",
   "name": "ANCOrganization",
   "title": "ANC Organization",
   "status": "draft",
@@ -26,7 +26,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-organization"
+              "http://smart.who.int/anc/StructureDefinition/anc-organization"
             ]
           }
         ]

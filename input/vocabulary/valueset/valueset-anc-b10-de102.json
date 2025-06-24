@@ -11,7 +11,7 @@
     "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
     "valueString": "executable"
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de102",
+  "url": "http://smart.who.int/anc/ValueSet/anc-b10-de102",
   "name": "TypeofvitaminAsupplementdosageprovidedChoices",
   "title": "Type of vitamin A supplement dosage provided Choices",
   "status": "draft",

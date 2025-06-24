@@ -2,7 +2,7 @@
   "resourceType": "Observation",
   "id": "anc-c-de5-example",
   "meta": {
-    "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-c-de5" ]
+    "profile": [ "http://smart.who.int/anc/StructureDefinition/anc-c-de5" ]
   },
   "identifier": [ {
     "use": "official",
@@ -14,7 +14,7 @@
     "coding": [ {
       "system": "http://example.org/fhir/CodeSystem/example-codes",
       "code": "example",
-      "display": "Valueset binding http://fhir.org/guides/who/anc-cds/ValueSet/anc-c-de5 resolved but contained no codes."
+      "display": "Valueset binding http://smart.who.int/anc/ValueSet/anc-c-de5 resolved but contained no codes."
     } ]
   },
   "subject": {

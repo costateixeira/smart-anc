@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-b9-de21",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b9-de21",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-b9-de21",
   "name": "Bloodtypetestordered",
   "title": "Blood type test ordered",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B9",
         "display": "Lab tests & imaging"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "ServiceRequest",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-servicerequest",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-servicerequest",
   "derivation": "constraint",
   "differential": {
     "element": [ {

@@ -2,15 +2,15 @@
 <CarePlan xmlns="http://hl7.org/fhir">
   <id value="charity-pregnancy-plan"/>
   <meta>
-    <profile value="http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-careplan"/>
+    <profile value="http://smart.who.int/anc/StructureDefinition/anc-careplan"/>
     <profile value="http://fhir.org/guides/who/core/StructureDefinition/who-careplan"/>
   </meta>
-	<extension url="http://fhir.org/guides/who/anc-cds/StructureDefinition/careplan-episodeOfCare">
+	<extension url="http://smart.who.int/anc/StructureDefinition/careplan-episodeOfCare">
 		<valueReference>
 			<reference value="EpisodeOfCare/charity-pregnancy-episode"/>
 		</valueReference>
 	</extension>
-	<instantiatesCanonical value="http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCS01"/>
+	<instantiatesCanonical value="http://smart.who.int/anc/PlanDefinition/ANCS01"/>
   <status value="active"/>
   <intent value="plan"/>
   <subject>
@@ -40,10 +40,10 @@
 		</outcomeReference>
 		<detail>
 			<kind value="ServiceRequest"/>
-			<instantiatesCanonical value="http://fhir.org/guides/who/anc-cds/PlanDefinition/anc-contact"/>
+			<instantiatesCanonical value="http://smart.who.int/anc/PlanDefinition/anc-contact"/>
 			<code>
         <coding>
-          <system value="http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes"/>
+          <system value="http://smart.who.int/anc/CodeSystem/anc-custom-codes"/>
           <code value="Reason for coming to facility-First antenatal care contact"/>
           <display value="First antenatal care contact"/>
         </coding>
@@ -68,10 +68,10 @@
 		<reference value="ServiceRequest/charity-otala-1-second-contact"/>
 		<detail>
 			<kind value="ServiceRequest"/>
-			<instantiatesCanonical value="http://fhir.org/guides/who/anc-cds/PlanDefinition/anc-contact"/>
+			<instantiatesCanonical value="http://smart.who.int/anc/PlanDefinition/anc-contact"/>
       <code>
         <coding>
-          <system value="http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes"/>
+          <system value="http://smart.who.int/anc/CodeSystem/anc-custom-codes"/>
           <code value="Reason for coming to facility-Scheduled antenatal care contact"/>
           <display value="Scheduled antenatal care contact"/>
         </coding>
@@ -99,10 +99,10 @@
 	<activity>
 		<detail>
 			<kind value="ServiceRequest"/>
-			<instantiatesCanonical value="http://fhir.org/guides/who/anc-cds/PlanDefinition/anc-contact"/>
+			<instantiatesCanonical value="http://smart.who.int/anc/PlanDefinition/anc-contact"/>
       <code>
         <coding>
-          <system value="http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes"/>
+          <system value="http://smart.who.int/anc/CodeSystem/anc-custom-codes"/>
           <code value="Reason for coming to facility-Scheduled antenatal care contact"/>
           <display value="Scheduled antenatal care contact"/>
         </coding>
@@ -130,10 +130,10 @@
 	<activity>
 		<detail>
 			<kind value="ServiceRequest"/>
-			<instantiatesCanonical value="http://fhir.org/guides/who/anc-cds/PlanDefinition/anc-contact"/>
+			<instantiatesCanonical value="http://smart.who.int/anc/PlanDefinition/anc-contact"/>
       <code>
         <coding>
-          <system value="http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes"/>
+          <system value="http://smart.who.int/anc/CodeSystem/anc-custom-codes"/>
           <code value="Reason for coming to facility-Scheduled antenatal care contact"/>
           <display value="Scheduled antenatal care contact"/>
         </coding>
@@ -161,10 +161,10 @@
 	<activity>
 		<detail>
 			<kind value="ServiceRequest"/>
-			<instantiatesCanonical value="http://fhir.org/guides/who/anc-cds/PlanDefinition/anc-contact"/>
+			<instantiatesCanonical value="http://smart.who.int/anc/PlanDefinition/anc-contact"/>
       <code>
         <coding>
-          <system value="http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes"/>
+          <system value="http://smart.who.int/anc/CodeSystem/anc-custom-codes"/>
           <code value="Reason for coming to facility-Scheduled antenatal care contact"/>
           <display value="Scheduled antenatal care contact"/>
         </coding>
@@ -192,10 +192,10 @@
 	<activity>
 		<detail>
 			<kind value="ServiceRequest"/>
-			<instantiatesCanonical value="http://fhir.org/guides/who/anc-cds/PlanDefinition/anc-contact"/>
+			<instantiatesCanonical value="http://smart.who.int/anc/PlanDefinition/anc-contact"/>
       <code>
         <coding>
-          <system value="http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes"/>
+          <system value="http://smart.who.int/anc/CodeSystem/anc-custom-codes"/>
           <code value="Reason for coming to facility-Scheduled antenatal care contact"/>
           <display value="Scheduled antenatal care contact"/>
         </coding>
@@ -223,10 +223,10 @@
 	<activity>
 		<detail>
 			<kind value="ServiceRequest"/>
-			<instantiatesCanonical value="http://fhir.org/guides/who/anc-cds/PlanDefinition/anc-contact"/>
+			<instantiatesCanonical value="http://smart.who.int/anc/PlanDefinition/anc-contact"/>
       <code>
         <coding>
-          <system value="http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes"/>
+          <system value="http://smart.who.int/anc/CodeSystem/anc-custom-codes"/>
           <code value="Reason for coming to facility-Scheduled antenatal care contact"/>
           <display value="Scheduled antenatal care contact"/>
         </coding>
@@ -254,10 +254,10 @@
 	<activity>
 		<detail>
 			<kind value="ServiceRequest"/>
-			<instantiatesCanonical value="http://fhir.org/guides/who/anc-cds/PlanDefinition/anc-contact"/>
+			<instantiatesCanonical value="http://smart.who.int/anc/PlanDefinition/anc-contact"/>
       <code>
         <coding>
-          <system value="http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes"/>
+          <system value="http://smart.who.int/anc/CodeSystem/anc-custom-codes"/>
           <code value="Reason for coming to facility-Scheduled antenatal care contact"/>
           <display value="Scheduled antenatal care contact"/>
         </coding>

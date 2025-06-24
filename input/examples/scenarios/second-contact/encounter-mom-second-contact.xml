@@ -9,7 +9,7 @@
   </class>
 	<type>
 		<coding>
-			<system value="http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes"/>
+			<system value="http://smart.who.int/anc/CodeSystem/anc-custom-codes"/>
 			<code value="Reason for coming to facility"/>
 			<display value="Reason for coming to facility"/>
 		</coding>

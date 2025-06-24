@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "hepatitis-c-test",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/hepatitis-c-test",
+  "url": "http://smart.who.int/anc/StructureDefinition/hepatitis-c-test",
   "name": "HepatitisCTest",
   "title": "Hepatitis C Test",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B9",
         "display": "Lab tests & imaging"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Procedure",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-procedure",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-procedure",
   "derivation": "constraint",
   "differential": {
     "element": [ {
@@ -51,7 +51,7 @@
           "valueString": "Hepatitis C test conducted"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de78"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b9-de78"
       },
       "mapping": [ {
         "identity": "ANC",

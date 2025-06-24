@@ -2,7 +2,7 @@
   "resourceType": "Immunization",
   "id": "anc-b10-de175-example",
   "meta": {
-    "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b10-de175" ]
+    "profile": [ "http://smart.who.int/anc/StructureDefinition/anc-b10-de175" ]
   },
   "identifier": [ {
     "use": "official",
@@ -12,7 +12,7 @@
   "status": "completed",
   "statusReason": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B10.DE175",
       "display": "Reason tetanus toxoid (TT) vaccination not provided"
     } ]

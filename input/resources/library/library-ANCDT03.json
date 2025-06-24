@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Library/ANCDT03",
+  "url": "http://smart.who.int/anc/Library/ANCDT03",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.03"
@@ -30,211 +30,211 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRHelpers|4.0.1"
+    "resource": "http://smart.who.int/anc/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library Config",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConfig"
+    "resource": "http://smart.who.int/anc/Library/ANCConfig"
   }, {
     "type": "depends-on",
     "display": "Library Cx",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConcepts"
+    "resource": "http://smart.who.int/anc/Library/ANCConcepts"
   }, {
     "type": "depends-on",
     "display": "Library PatientData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCDataElements"
   }, {
     "type": "depends-on",
     "display": "Library ContactData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCContactDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCContactDataElements"
   }, {
     "type": "depends-on",
     "display": "Library WC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/WHOCommon"
+    "resource": "http://smart.who.int/anc/Library/WHOCommon"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de43"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de43"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Nausea and Vomiting Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de58"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de58"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de18"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de18"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms - Nausea and Vomiting Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de32"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de32"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Heartburn Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de55"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de55"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms - Heartburn Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de29"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de29"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Leg cramps Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de56"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de56"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms - Leg cramps Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de30"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de30"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Pain - Low back Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de62"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de62"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Contractions Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de50"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de50"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Pain - during urination (dysuria) Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de60"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de60"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Pain - Extreme pelvic pain Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de64"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de64"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Pain - Pelvic Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de63"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de63"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms - Pain - Low back Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de36"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de36"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms - Pain - Pelvic Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de37"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de37"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Constipation Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de49"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de49"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms - Constipation Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de23"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de23"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Varicose veins Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de67"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de67"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Pain - Leg Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de61"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de61"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Leg redness Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de57"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de57"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Oedema Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de59"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de59"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms - Varicose veins Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de40"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de40"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms - Oedema Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de33"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de33"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms - Contractions Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de24"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de24"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms - Pain - Extreme pelvic pain Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de38"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de38"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms - Pain - during urination (dysuria) Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de34"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de34"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms - Pain - Leg Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de35"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de35"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms - Leg redness Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de31"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de31"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Abnormal vaginal discharges Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de46"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de46"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Breathing difficulty Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de47"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de47"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Breathless during routine activities Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de48"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de48"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Cough lasting more than 3 weeks Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de51"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de51"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Fever Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de52"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de52"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Gets tired easily Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de53"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de53"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Headache Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de54"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de54"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Vaginal bleeding Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de66"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de66"
   }, {
     "type": "depends-on",
     "display": "Value set Current physiological symptoms - Visual disturbance Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de68"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de68"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms - Abnormal vaginal discharge Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de20"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de20"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms - Breathing difficulty Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de21"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de21"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms - Breathless routine activities Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de22"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de22"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms - Cough lasting more than 3 weeks Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de25"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de25"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms - Fever Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de26"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de26"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms - Gets tired easily Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de27"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de27"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms - Headache Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de28"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de28"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms - Vaginal bleeding Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de39"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de39"
   }, {
     "type": "depends-on",
     "display": "Value set Persistent physiological symptoms - Visual disturbance Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de41"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b7-de41"
   } ],
   "parameter": [ {
     "name": "encounter",
@@ -342,7 +342,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference", "value" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de43"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b7-de43"
     } ]
   }, {
     "type": "Observation",
@@ -350,7 +350,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference", "value" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b7-de18"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b7-de18"
     } ]
   } ],
   "content": [ {

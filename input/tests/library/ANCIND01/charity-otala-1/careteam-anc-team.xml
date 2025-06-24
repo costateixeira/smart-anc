@@ -2,13 +2,13 @@
 <CareTeam xmlns="http://hl7.org/fhir">
   <id value="anc-team"/>
   <meta>
-    <profile value="http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-careteam"/>
+    <profile value="http://smart.who.int/anc/StructureDefinition/anc-careteam"/>
     <profile value="http://fhir.org/guides/who/core/StructureDefinition/who-careteam"/>
   </meta>
   <participant>
     <role>
 			<coding>
-				<system value="http://fhir.org/guides/who/anc-cds/CodeSystem/anc-common-persona"/>
+				<system value="http://smart.who.int/anc/CodeSystem/anc-common-persona"/>
 				<code value="NRS"/>
 				<display value="Nurse"/>
 			</coding>

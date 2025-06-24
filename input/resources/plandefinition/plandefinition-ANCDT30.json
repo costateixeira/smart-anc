@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCDT30",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCDT30",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCDT30",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.30"
@@ -26,13 +26,13 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B9.",
         "display": "Conduct laboratory tests and imaging"
       } ]
     }
   } ],
-  "library": [ "http://fhir.org/guides/who/anc-cds/Library/ANCDT30" ],
+  "library": [ "http://smart.who.int/anc/Library/ANCDT30" ],
   "action": [ {
     "title": "ANC.DT.30 General risk reduction counselling",
     "trigger": [ {

@@ -4,7 +4,7 @@
   <meta>
 		<profile value="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-activitydefinition"/>
 	</meta>
-  <url value="http://fhir.org/guides/who/anc-cds/ActivityDefinition/ANCHaemoglobinTestHaemoglobinometer"/>
+  <url value="http://smart.who.int/anc/ActivityDefinition/ANCHaemoglobinTestHaemoglobinometer"/>
   <version value="0.1.0"/>
   <name value="ANCHaemoglobinTestHaemoglobinometer"/>
   <title value="ActivityDefinition - ANC Haemoglobin Test Color Scale"/>

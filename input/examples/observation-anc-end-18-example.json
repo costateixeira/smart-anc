@@ -2,7 +2,7 @@
   "resourceType": "Observation",
   "id": "anc-end-18-example",
   "meta": {
-    "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-end-18" ]
+    "profile": [ "http://smart.who.int/anc/StructureDefinition/anc-end-18" ]
   },
   "identifier": [ {
     "use": "official",
@@ -12,7 +12,7 @@
   "status": "final",
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.End.18",
       "display": "Delivery mode"
     } ]
@@ -28,7 +28,7 @@
   } ],
   "valueCodeableConcept": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.End.19",
       "display": "Normal"
     }, {

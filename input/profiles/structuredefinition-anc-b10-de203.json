@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-b10-de203",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b10-de203",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-b10-de203",
   "name": "IPVfirstlinesupportprovided",
   "title": "IPV first-line support provided",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B10.8",
         "display": "Intimate partner violence first-line support and care"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Procedure",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-procedure",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-procedure",
   "derivation": "constraint",
   "differential": {
     "element": [ {
@@ -51,7 +51,7 @@
           "valueString": "IPV first-line support provided"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de203"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de203"
       },
       "mapping": [ {
         "identity": "ANC",

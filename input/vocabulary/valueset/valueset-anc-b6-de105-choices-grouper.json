@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "anc-b6-de105-choices-grouper",
-  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de105-choices-grouper",
+  "url": "http://smart.who.int/anc/ValueSet/anc-b6-de105-choices-grouper",
   "name": "FluimmunizationhistoryChoicesGrouper",
   "title": "Flu immunization history Choices Grouper",
   "status": "draft",
@@ -11,25 +11,25 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "valueSet": [ "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de106" ]
+      "valueSet": [ "http://smart.who.int/anc/ValueSet/anc-b6-de106" ]
     }, {
-      "valueSet": [ "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de107" ]
+      "valueSet": [ "http://smart.who.int/anc/ValueSet/anc-b6-de107" ]
     }, {
-      "valueSet": [ "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de108" ]
+      "valueSet": [ "http://smart.who.int/anc/ValueSet/anc-b6-de108" ]
     } ]
   },
   "expansion": {
     "timestamp": "2021-09-07T20:15:19-06:00",
     "contains": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B6.DE106",
       "display": "Fully immunized"
     }, {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B6.DE107",
       "display": "No doses"
     }, {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B6.DE108",
       "display": "Unknown"
     } ]

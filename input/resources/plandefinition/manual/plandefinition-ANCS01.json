@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCS01",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCS01",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCS01",
   "identifier": [ {
     "use": "official",
     "value": "ANC.S.01"
@@ -31,7 +31,7 @@
       } ]
     }
   } ],
-  "library": [ "http://fhir.org/guides/who/anc-cds/Library/ANCS01" ],
+  "library": [ "http://smart.who.int/anc/Library/ANCS01" ],
   "action": [ {
     "id": "1",
     "title": "ANC Contact 1",
@@ -44,7 +44,7 @@
         "display": "Guideline-based care"
       } ]}
     ],
-    "definitionCanonical": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCB",
+    "definitionCanonical": "http://smart.who.int/anc/PlanDefinition/ANCB",
     "dynamicValue": [
       {
         "path": "timingDateTime",
@@ -66,7 +66,7 @@
         "display": "Guideline-based care"
       } ]}
     ],
-    "definitionCanonical": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCB",
+    "definitionCanonical": "http://smart.who.int/anc/PlanDefinition/ANCB",
     "dynamicValue": [
       {
         "path": "timingDateTime",
@@ -88,7 +88,7 @@
         "display": "Guideline-based care"
       } ]}
     ],
-    "definitionCanonical": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCB",
+    "definitionCanonical": "http://smart.who.int/anc/PlanDefinition/ANCB",
     "dynamicValue": [
       {
         "path": "timingDateTime",
@@ -110,7 +110,7 @@
         "display": "Guideline-based care"
       } ]}
     ],
-    "definitionCanonical": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCB",
+    "definitionCanonical": "http://smart.who.int/anc/PlanDefinition/ANCB",
     "dynamicValue": [
       {
         "path": "timingDateTime",
@@ -132,7 +132,7 @@
         "display": "Guideline-based care"
       } ]}
     ],
-    "definitionCanonical": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCB",
+    "definitionCanonical": "http://smart.who.int/anc/PlanDefinition/ANCB",
     "dynamicValue": [
       {
         "path": "timingDateTime",
@@ -154,7 +154,7 @@
         "display": "Guideline-based care"
       } ]}
     ],
-    "definitionCanonical": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCB",
+    "definitionCanonical": "http://smart.who.int/anc/PlanDefinition/ANCB",
     "dynamicValue": [
       {
         "path": "timingDateTime",
@@ -176,7 +176,7 @@
         "display": "Guideline-based care"
       } ]}
     ],
-    "definitionCanonical": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCB",
+    "definitionCanonical": "http://smart.who.int/anc/PlanDefinition/ANCB",
     "dynamicValue": [
       {
         "path": "timingDateTime",
@@ -198,7 +198,7 @@
         "display": "Guideline-based care"
       } ]}
     ],
-    "definitionCanonical": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCB",
+    "definitionCanonical": "http://smart.who.int/anc/PlanDefinition/ANCB",
     "dynamicValue": [
       {
         "path": "timingDateTime",

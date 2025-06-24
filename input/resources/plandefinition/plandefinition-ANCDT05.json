@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCDT05",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCDT05",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCDT05",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.05"
@@ -26,13 +26,13 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B8",
         "display": "Conduct physical exam"
       } ]
     }
   } ],
-  "library": [ "http://fhir.org/guides/who/anc-cds/Library/ANCDT05" ],
+  "library": [ "http://smart.who.int/anc/Library/ANCDT05" ],
   "action": [ {
     "title": "ANC.DT.05 Evaluating labour",
     "trigger": [ {

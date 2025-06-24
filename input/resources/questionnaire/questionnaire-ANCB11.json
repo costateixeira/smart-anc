@@ -14,7 +14,7 @@
     "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
     "valueCode": "structured"
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Questionnaire/ANCB11",
+  "url": "http://smart.who.int/anc/Questionnaire/ANCB11",
   "name": "ANCB11",
   "title": "ANC.B11 Referral needed?",
   "status": "active",
@@ -28,7 +28,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.B11",
         "display": "Urgent referral needed?"
       } ]
@@ -36,15 +36,15 @@
   } ],
   "item": [ {
     "linkId": "1",
-    "definition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b10-de256#ServiceRequest.code",
+    "definition": "http://smart.who.int/anc/StructureDefinition/anc-b10-de256#ServiceRequest.code",
     "text": "Referred to hospital",
     "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de256"
+    "answerValueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de256"
   }, {
     "linkId": "2",
-    "definition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b10-de257#ServiceRequest.code",
+    "definition": "http://smart.who.int/anc/StructureDefinition/anc-b10-de257#ServiceRequest.code",
     "text": "Reason referral not done",
     "type": "choice",
-    "answerValueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b10-de258"
+    "answerValueSet": "http://smart.who.int/anc/ValueSet/anc-b10-de258"
   } ]
 }

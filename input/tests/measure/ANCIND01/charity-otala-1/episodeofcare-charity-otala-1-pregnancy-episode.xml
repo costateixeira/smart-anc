@@ -2,7 +2,7 @@
 <EpisodeOfCare xmlns="http://hl7.org/fhir">
   <id value="charity-otala-1-pregnancy-episode"/>
   <meta>
-    <profile value="http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-episodeofcare"/>
+    <profile value="http://smart.who.int/anc/StructureDefinition/anc-episodeofcare"/>
     <profile value="http://fhir.org/guides/who/core/StructureDefinition/who-episodeofcare"/>
   </meta>
   <identifier>
@@ -12,7 +12,7 @@
   <status value="active"/>
   <type>
     <coding>
-        <system value="http://fhir.org/guides/who/anc-cds/CodeSystem/anc-care-codes"/>
+        <system value="http://smart.who.int/anc/CodeSystem/anc-care-codes"/>
         <code value="ANC.Case"/>
         <display value="Antenatal care case"/>
     </coding>

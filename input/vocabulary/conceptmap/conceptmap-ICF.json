@@ -1,14 +1,14 @@
 {
   "resourceType": "ConceptMap",
   "id": "ICF",
-  "url": "http://fhir.org/guides/who/anc-cds/ConceptMap/ICF",
+  "url": "http://smart.who.int/anc/ConceptMap/ICF",
   "name": "ICF",
   "title": "ICF",
   "status": "draft",
   "experimental": false,
   "description": "Concept mapping from content extended codes to ICF",
   "group": [ {
-    "source": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+    "source": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
     "target": "http://hl7.org/fhir/sid/icf-nl",
     "element": [ {
       "code": "ANC.A.DE14",

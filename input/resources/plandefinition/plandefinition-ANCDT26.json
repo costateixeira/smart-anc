@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCDT26",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCDT26",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCDT26",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.26"
@@ -26,13 +26,13 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "IF",
         "display": "\"Population with low dietary calcium intake\" = TRUE AND/OR IF \"Population with vitamin A deficiency\" = TRUE"
       } ]
     }
   } ],
-  "library": [ "http://fhir.org/guides/who/anc-cds/Library/ANCDT26" ],
+  "library": [ "http://smart.who.int/anc/Library/ANCDT26" ],
   "action": [ {
     "title": "ANC.DT.26 Calcium and vitamin A supplementation",
     "trigger": [ {

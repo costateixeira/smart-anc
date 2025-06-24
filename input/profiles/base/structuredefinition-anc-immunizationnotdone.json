@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-immunizationnotdone",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-immunizationnotdone",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-immunizationnotdone",
   "name": "ANCImmunizationNotDone",
   "title": "ANC Immunization Not Done",
   "status": "draft",
@@ -26,7 +26,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-patient"
+              "http://smart.who.int/anc/StructureDefinition/anc-base-patient"
             ]
           }
         ]
@@ -38,7 +38,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-encounter"
+              "http://smart.who.int/anc/StructureDefinition/anc-base-encounter"
             ]
           }
         ]

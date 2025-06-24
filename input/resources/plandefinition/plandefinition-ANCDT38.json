@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCDT38",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCDT38",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCDT38",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.38"
@@ -26,13 +26,13 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B10.",
         "display": "Counselling, in-facility management & treatment"
       } ]
     }
   } ],
-  "library": [ "http://fhir.org/guides/who/anc-cds/Library/ANCDT38" ],
+  "library": [ "http://smart.who.int/anc/Library/ANCDT38" ],
   "action": [ {
     "title": "ANC.DT.38 Deworming and malaria prophylaxis",
     "trigger": [ {

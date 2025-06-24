@@ -2,7 +2,7 @@
   "resourceType": "Observation",
   "id": "anc-b9-de58-example",
   "meta": {
-    "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b9-de58" ]
+    "profile": [ "http://smart.who.int/anc/StructureDefinition/anc-b9-de58" ]
   },
   "identifier": [ {
     "use": "official",
@@ -12,7 +12,7 @@
   "status": "final",
   "code": {
     "coding": [ {
-      "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom-codes",
+      "system": "http://smart.who.int/anc/CodeSystem/anc-custom-codes",
       "code": "ANC.B9.DE58",
       "display": "High risk for HIV"
     }, {

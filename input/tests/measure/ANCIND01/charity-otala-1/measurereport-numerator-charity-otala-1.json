@@ -3,7 +3,7 @@
   "id": "numerator-charity-otala-1",
   "status": "complete",
   "type": "individual",
-  "measure": "http://fhir.org/guides/who/anc-cds/Measure/ANCIND01",
+  "measure": "http://smart.who.int/anc/Measure/ANCIND01",
   "subject": {
     "reference": "Patient/charity-otala-1"
   },

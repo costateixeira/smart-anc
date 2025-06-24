@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-encounter",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-encounter",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-encounter",
   "name": "ANCEncounter",
   "title": "ANC Encounter",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.A4",
         "display": "Gather client details"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Encounter",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-encounter",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-base-encounter",
   "derivation": "constraint",
   "differential": {
     "element": [ {
@@ -46,7 +46,7 @@
       "max": "1",
       "type": [ {
         "code": "Extension",
-        "profile": [ "http://fhir.org/guides/who/anc-cds/StructureDefinition/contactnumber" ]
+        "profile": [ "http://smart.who.int/anc/StructureDefinition/contactnumber" ]
       } ],
       "mapping": [ {
         "identity": "ANC",
@@ -81,7 +81,7 @@
           "valueString": "Reason for coming to facility Choices Grouper"
         } ],
         "strength": "required",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b5-de1-choices-grouper"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-b5-de1-choices-grouper"
       },
       "mapping": [ {
         "identity": "ANC",

@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "ANCDT25",
-  "url": "http://fhir.org/guides/who/anc-cds/PlanDefinition/ANCDT25",
+  "url": "http://smart.who.int/anc/PlanDefinition/ANCDT25",
   "identifier": [ {
     "use": "official",
     "value": "ANC.DT.25"
@@ -26,13 +26,13 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/activity-codes",
         "code": "ANC.B9.",
         "display": "Conduct laboratory tests and imaging"
       } ]
     }
   } ],
-  "library": [ "http://fhir.org/guides/who/anc-cds/Library/ANCDT25" ],
+  "library": [ "http://smart.who.int/anc/Library/ANCDT25" ],
   "action": [ {
     "title": "ANC.DT.25 Anaemia, iron and folic acid supplementation",
     "trigger": [ {

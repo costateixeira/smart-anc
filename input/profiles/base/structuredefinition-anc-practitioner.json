@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-practitioner",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-practitioner",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-practitioner",
   "name": "ANCPractitioner",
   "title": "ANC Practitioner",
   "status": "draft",

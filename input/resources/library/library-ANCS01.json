@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Library/ANCS01",
+  "url": "http://smart.who.int/anc/Library/ANCS01",
   "identifier": [ {
     "use": "official",
     "value": "ANC.S.01"
@@ -30,35 +30,35 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRHelpers|4.0.1"
+    "resource": "http://smart.who.int/anc/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library Config",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConfig"
+    "resource": "http://smart.who.int/anc/Library/ANCConfig"
   }, {
     "type": "depends-on",
     "display": "Library Cx",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConcepts"
+    "resource": "http://smart.who.int/anc/Library/ANCConcepts"
   }, {
     "type": "depends-on",
     "display": "Library PatientData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCDataElements"
   }, {
     "type": "depends-on",
     "display": "Library ContactData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCContactDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCContactDataElements"
   }, {
     "type": "depends-on",
     "display": "Library WC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/WHOCommon"
+    "resource": "http://smart.who.int/anc/Library/WHOCommon"
   }, {
     "type": "depends-on",
     "display": "Value set Last menstrual period (LMP) date",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de14"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de14"
   }, {
     "type": "depends-on",
     "display": "Value set Expected date of delivery (EDD)",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de22"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b6-de22"
   } ],
   "parameter": [ {
     "name": "encounter",
@@ -154,7 +154,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de14"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de14"
     } ]
   }, {
     "type": "Observation",
@@ -162,7 +162,7 @@
     "mustSupport": [ "code", "status", "encounter", "encounter.reference" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b6-de22"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b6-de22"
     } ]
   } ],
   "content": [ {

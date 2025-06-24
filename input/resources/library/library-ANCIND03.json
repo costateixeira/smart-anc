@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/who/anc-cds/Library/ANCIND03",
+  "url": "http://smart.who.int/anc/Library/ANCIND03",
   "name": "ANCIND03",
   "title": "ANC.IND.03 Percentage of pregnant women screened for syphilis during ANC",
   "status": "active",
@@ -26,43 +26,43 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRHelpers|4.0.1"
+    "resource": "http://smart.who.int/anc/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library FC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/FHIRCommon"
+    "resource": "http://smart.who.int/anc/Library/FHIRCommon"
   }, {
     "type": "depends-on",
     "display": "Library AC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCCommon"
+    "resource": "http://smart.who.int/anc/Library/ANCCommon"
   }, {
     "type": "depends-on",
     "display": "Library BCx",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCBaseConcepts"
+    "resource": "http://smart.who.int/anc/Library/ANCBaseConcepts"
   }, {
     "type": "depends-on",
     "display": "Library Cx",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCConcepts"
+    "resource": "http://smart.who.int/anc/Library/ANCConcepts"
   }, {
     "type": "depends-on",
     "display": "Library BaseData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCBaseDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCBaseDataElements"
   }, {
     "type": "depends-on",
     "display": "Library PatientData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCDataElements"
   }, {
     "type": "depends-on",
     "display": "Library ContactData",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCContactDataElements"
+    "resource": "http://smart.who.int/anc/Library/ANCContactDataElements"
   }, {
     "type": "depends-on",
     "display": "Library Stratifiers",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/ANCStratifiers"
+    "resource": "http://smart.who.int/anc/Library/ANCStratifiers"
   }, {
     "type": "depends-on",
     "display": "Library WC",
-    "resource": "http://fhir.org/guides/who/anc-cds/Library/WHOCommon"
+    "resource": "http://smart.who.int/anc/Library/WHOCommon"
   }, {
     "type": "depends-on",
     "display": "Code system ISO-8601-Derived Periods",
@@ -70,23 +70,23 @@
   }, {
     "type": "depends-on",
     "display": "Value set Antenatal care case",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/antenatal-care-case"
+    "resource": "http://smart.who.int/anc/ValueSet/antenatal-care-case"
   }, {
     "type": "depends-on",
     "display": "Value set Syphilis test result",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de107"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-b9-de107"
   }, {
     "type": "depends-on",
     "display": "Value set Reason for closing ANC record",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-end-1"
+    "resource": "http://smart.who.int/anc/ValueSet/anc-end-1"
   }, {
     "type": "depends-on",
     "display": "Value set Qualifying Reason for closing ANC record Choices",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/qualifying-reason-for-closing-anc-record-choices"
+    "resource": "http://smart.who.int/anc/ValueSet/qualifying-reason-for-closing-anc-record-choices"
   }, {
     "type": "depends-on",
     "display": "Value set Antenatal care contact",
-    "resource": "http://fhir.org/guides/who/anc-cds/ValueSet/antenatal-care-contact"
+    "resource": "http://smart.who.int/anc/ValueSet/antenatal-care-contact"
   } ],
   "parameter": [ {
     "name": "Measurement Period",
@@ -147,7 +147,7 @@
     "mustSupport": [ "type" ],
     "codeFilter": [ {
       "path": "type",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/antenatal-care-case"
+      "valueSet": "http://smart.who.int/anc/ValueSet/antenatal-care-case"
     } ]
   }, {
     "type": "Observation",
@@ -155,7 +155,7 @@
     "mustSupport": [ "code", "status", "effective", "value" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-end-1"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-end-1"
     } ]
   }, {
     "type": "Observation",
@@ -163,7 +163,7 @@
     "mustSupport": [ "code", "status", "issued" ],
     "codeFilter": [ {
       "path": "code",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-b9-de107"
+      "valueSet": "http://smart.who.int/anc/ValueSet/anc-b9-de107"
     } ]
   }, {
     "type": "Encounter",
@@ -171,7 +171,7 @@
     "mustSupport": [ "type", "period" ],
     "codeFilter": [ {
       "path": "type",
-      "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/antenatal-care-contact"
+      "valueSet": "http://smart.who.int/anc/ValueSet/antenatal-care-contact"
     } ]
   } ],
   "content": [ {

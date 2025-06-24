@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-end-25",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-end-25",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-end-25",
   "name": "Deliverycomplications",
   "title": "Delivery complications",
   "status": "draft",
@@ -15,7 +15,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/who/anc-cds/CodeSystem/anc-activity-codes",
+        "system": "http://smart.who.int/anc/CodeSystem/anc-activity-codes",
         "code": "ANC.End",
         "display": "End"
       } ]
@@ -30,7 +30,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-observation",
+  "baseDefinition": "http://smart.who.int/anc/StructureDefinition/anc-observation",
   "derivation": "constraint",
   "differential": {
     "element": [ {
@@ -50,7 +50,7 @@
           "valueString": "Delivery complications"
         } ],
         "strength": "extensible",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-end-25"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-end-25"
       },
       "mapping": [ {
         "identity": "ANC",
@@ -72,7 +72,7 @@
           "valueString": "Delivery complications Choices"
         } ],
         "strength": "extensible",
-        "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/anc-end-26"
+        "valueSet": "http://smart.who.int/anc/ValueSet/anc-end-26"
       },
       "mapping": [ {
         "identity": "ANC",

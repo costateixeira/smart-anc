@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "anc-careplan",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-careplan",
+  "url": "http://smart.who.int/anc/StructureDefinition/anc-careplan",
   "name": "ANCCarePlan",
   "title": "ANC CarePlan",
   "status": "draft",
@@ -26,7 +26,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-patient"
+              "http://smart.who.int/anc/StructureDefinition/anc-base-patient"
             ]
           }
         ]
@@ -38,7 +38,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-encounter"
+              "http://smart.who.int/anc/StructureDefinition/anc-base-encounter"
             ]
           }
         ]
@@ -50,7 +50,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-careteam"
+              "http://smart.who.int/anc/StructureDefinition/anc-careteam"
             ]
           }
         ]
@@ -62,7 +62,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-condition"
+              "http://smart.who.int/anc/StructureDefinition/anc-condition"
             ]
           }
         ]
@@ -78,17 +78,17 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-allergyintolerance",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-appointment",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-condition",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-encounter",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-episodeofcare",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-immunization",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-immunizationnotdone",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-observation",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-observationnotdone",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-procedure",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-procedurenotdone"
+              "http://smart.who.int/anc/StructureDefinition/anc-allergyintolerance",
+              "http://smart.who.int/anc/StructureDefinition/anc-appointment",
+              "http://smart.who.int/anc/StructureDefinition/anc-condition",
+              "http://smart.who.int/anc/StructureDefinition/anc-base-encounter",
+              "http://smart.who.int/anc/StructureDefinition/anc-episodeofcare",
+              "http://smart.who.int/anc/StructureDefinition/anc-immunization",
+              "http://smart.who.int/anc/StructureDefinition/anc-immunizationnotdone",
+              "http://smart.who.int/anc/StructureDefinition/anc-observation",
+              "http://smart.who.int/anc/StructureDefinition/anc-observationnotdone",
+              "http://smart.who.int/anc/StructureDefinition/anc-procedure",
+              "http://smart.who.int/anc/StructureDefinition/anc-procedurenotdone"
             ]
           }
         ]
@@ -100,10 +100,10 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-medicationnotrequested",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-medicationrequest",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-servicenotrequested",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-servicerequest"
+              "http://smart.who.int/anc/StructureDefinition/anc-medicationnotrequested",
+              "http://smart.who.int/anc/StructureDefinition/anc-medicationrequest",
+              "http://smart.who.int/anc/StructureDefinition/anc-servicenotrequested",
+              "http://smart.who.int/anc/StructureDefinition/anc-servicerequest"
             ]
           }
         ]

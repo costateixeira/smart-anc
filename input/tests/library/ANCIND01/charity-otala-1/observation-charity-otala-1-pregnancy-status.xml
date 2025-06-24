@@ -3,8 +3,8 @@
 	<id value="charity-otala-1-pregnancy-status"/>
 	<meta>
 		<profile value="http://fhir.org/guides/who/core/StructureDefinition/who-observation"/>
-		<profile value="http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-observation"/>
-		<profile value="http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b4-de1"/>
+		<profile value="http://smart.who.int/anc/StructureDefinition/anc-observation"/>
+		<profile value="http://smart.who.int/anc/StructureDefinition/anc-b4-de1"/>
 	</meta>
 	<status value="final"/>
 	<category>
@@ -15,7 +15,7 @@
 	</category>
 	<code>
 		<coding>
-			<system value="http://fhir.org/guides/who/anc-cds/CodeSystem/anc-custom"/>
+			<system value="http://smart.who.int/anc/CodeSystem/anc-custom"/>
 			<code value="ANC.B4.DE1"/>
 			<display value="Pregnancy confirmed"/>
 		</coding>

@@ -2,7 +2,7 @@
 <Observation xmlns="http://hl7.org/fhir">
 	<id value="charity-danger-signs-vaginal-bleeding"/>
 	<meta>
-		<profile value="http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-b5-de4"/>
+		<profile value="http://smart.who.int/anc/StructureDefinition/anc-b5-de4"/>
 	</meta>
 	<status value="final"/>
 	<category>
@@ -13,7 +13,7 @@
 	</category>
 	<code>
 		<coding>
-			<system value="http://fhir.org/guides/who/anc-cds/anc-custom-codes"/>
+			<system value="http://smart.who.int/anc/anc-custom-codes"/>
 			<code value="Danger signs"/>
 			<display value="Danger Signs"/>
 		</coding>
