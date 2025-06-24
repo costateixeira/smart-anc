@@ -26,7 +26,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-patient"
+              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-patient"
             ]
           }
         ]
@@ -38,7 +38,7 @@
            {
              "code" : "Reference",
              "targetProfile" : [
-               "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-encounter"
+               "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-encounter"
              ]
            }
          ]
@@ -52,7 +52,7 @@
              "targetProfile" : [
                "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-practitioner",
                "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-practitionerrole",
-               "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-patient",
+               "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-patient",
                "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-relatedperson"
              ]
            }

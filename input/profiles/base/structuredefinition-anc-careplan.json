@@ -26,7 +26,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-patient"
+              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-patient"
             ]
           }
         ]
@@ -38,7 +38,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-encounter"
+              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-encounter"
             ]
           }
         ]
@@ -81,7 +81,7 @@
               "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-allergyintolerance",
               "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-appointment",
               "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-condition",
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-encounter",
+              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-encounter",
               "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-episodeofcare",
               "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-immunization",
               "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-immunizationnotdone",

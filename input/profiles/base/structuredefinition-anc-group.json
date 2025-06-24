@@ -30,7 +30,7 @@
           {
             "code" : "Reference",
             "targetProfile" : [
-              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-patient"
+              "http://fhir.org/guides/who/anc-cds/StructureDefinition/anc-base-patient"
             ]
           }
         ]
