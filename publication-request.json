@@ -7,7 +7,7 @@
     "desc" : "0.3.0 Release",
     "mode" : "milestone",    
     "path" : "http://smart.who.int/anc/v0.3.0",
-    "ci-build": "http://worldhealthorganization.github.io/smart-hiv",    
+    "ci-build": "http://worldhealthorganization.github.io/smart-anc",    
     "first": true,
     "status" : "release",
     "sequence" : "Releases"
