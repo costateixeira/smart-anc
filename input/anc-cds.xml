@@ -168,10 +168,11 @@
       <code value="path-pages" />
       <value value="input/examples/first-contact/no-anaemia-no-iron-side-effects"/>
     </parameter> -->
-    <parameter>
+    <!-- remove path-pages, as it is not working to indicate input, but the location of binary files. see https://build.fhir.org/ig/FHIR/fhir-tools-ig/ValueSet-ig-parameters.html -->
+    <!--<parameter>
       <code value="path-pages" />
       <value value="input/pagecontent"/>
-    </parameter>
+    </parameter>-->
     <parameter>
       <code value="path-resource" />
       <value value="input/resources/activitydefinition"/>
